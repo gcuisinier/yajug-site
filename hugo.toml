@@ -1,0 +1,87 @@
+baseURL = 'https://www.gcuisinier.net/yajug-site/'
+languageCode = 'en'
+defaultContentLanguage = 'en'
+title = 'YAJUG — Yet Another Java User Group Luxembourg'
+theme = 'yajug'
+
+enableRobotsTXT = true
+enableGitInfo = false
+[pagination]
+  pagerSize = 9
+
+[params]
+  description    = "YAJUG is the Java User Group of Luxembourg, bringing together Java and JVM developers for meetups, talks, and knowledge sharing."
+  logo           = "/images/logo.png"
+  logoWhite      = "/images/logo-white.png"
+mailingList    = "https://groups.google.com/g/yajug"
+  contactEmail   = "info@yajug.lu"
+  twitter        = "yajug"
+ 
+  github         = "yajug"
+
+
+[permalinks]
+  program  = '/program/:slug/'
+  blog     = '/blog/:year/:month/:slug/'
+  speakers = '/speakers/:slug/'
+
+[taxonomies]
+  tag      = 'tags'
+  category = 'categories'
+
+[outputs]
+  home    = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    style       = 'monokai'
+    lineNos     = false
+    codeFences  = true
+    guessSyntax = true
+
+[[menus.main]]
+  identifier = 'home'
+  name       = 'Home'
+  url        = '/'
+  weight     = 10
+
+[[menus.main]]
+  identifier = 'events'
+  name       = 'Evènements'
+  url        = '/events/'
+  weight     = 20
+
+[[menus.main]]
+  identifier = 'speakers'
+  name       = 'Conférenciers'
+  url        = '/speakers/'
+  weight     = 40
+
+[[menus.main]]
+  identifier = 'team'
+  name       = 'Organisateurs'
+  url        = '/team/'
+  weight     = 55
+
+[[menus.main]]
+  identifier = 'contact'
+  name       = 'Informations'
+  url        = '/contact/'
+  weight     = 60
+
+[[menus.main]]
+  identifier = 'voxxeddays'
+  name       = 'Voxxed Days Luxembourg'
+  url        = '/voxxeddays/'
+  weight     = 70
+  [menus.main.params]
+    divider    = true
+    highlight  = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min      = '0.120.0'

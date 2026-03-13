@@ -1,0 +1,56 @@
+{{ define "main" }}
+<section class="section section--team">
+  <div class="container">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="team-intro prose">{{ . }}</div>
+    {{ end }}
+
+    {{ $leadership := slice }}
+    {{ $board := slice }}
+    {{ $formerly := slice }}
+    {{ range site.Data.team }}
+      {{ if or (eq .role "Co-Président") (eq .role "Secrétaire") (eq .role "Trésorier") (eq .role "Président") }}
+        {{ $leadership = $leadership | append . }}
+      {{  else if eq .role  "Ancien membre"}}
+        {{ $formerly = $formerly | append . }}
+      {{ else }}
+        {{ $board = $board | append . }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $leadership }}
+    <div class="team-section">
+      <h2 class="team-section__title">Bureau exécutif</h2>
+      <div class="team-grid team-grid--leadership">
+        {{ range . }}
+        {{ partial "team-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ with $board }}
+    <div class="team-section">
+      <h2 class="team-section__title">Membres organisateurs</h2>
+      <div class="team-grid">
+        {{ range . }}
+        {{ partial "team-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ with $formerly }}
+    <div class="team-section">
+      <h2 class="team-section__title">Anciens membres organisateurs</h2>
+      <div class="team-grid">
+        {{ range . }}
+        {{ partial "team-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

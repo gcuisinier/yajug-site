@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .IsHome }}page-home{{ else }}page-{{ .Section | default "page" }}{{ end }}">
+  <header class="site-header" id="site-header">
+    {{ partial "header.html" . }}
+  </header>
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="site-footer">
+    {{ partial "footer.html" . }}
+  </footer>
+  {{ partial "head/js.html" . }}
+</body>
+</html>

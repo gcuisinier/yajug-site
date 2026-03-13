@@ -1,0 +1,35 @@
+{{ define "main" }}
+<article class="blog-single">
+  <div class="container container--narrow">
+    {{ with .Params.featured_image }}
+    <div class="blog-single__cover">
+      <img src="{{ . }}" alt="{{ $.Title }}" class="blog-single__cover-img">
+    </div>
+    {{ end }}
+    <header class="blog-single__header">
+      <div class="blog-single__meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}" class="blog-single__date">
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
+        {{ with .Params.author }}
+        <span class="blog-single__author">by {{ . }}</span>
+        {{ end }}
+      </div>
+      <h1 class="blog-single__title">{{ .Title }}</h1>
+      {{ with .Params.tags }}
+      <div class="blog-single__tags">
+        {{ range . }}
+        <a href="{{ printf "/tags/%s/" (. | urlize) | strings.TrimPrefix "/" | absURL }}" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </header>
+    <div class="blog-single__content prose">
+      {{ .Content }}
+    </div>
+    <footer class="blog-single__footer">
+      <a href="{{ "/blog/" | strings.TrimPrefix "/" | absURL }}" class="btn btn--text">← All articles</a>
+    </footer>
+  </div>
+</article>
+{{ end }}

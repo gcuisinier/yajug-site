@@ -1,0 +1,7 @@
+name         = "yajug"
+license      = "MIT"
+description  = "Custom theme for YAJUG - Yet Another Java User Group Luxembourg"
+homepage     = "https://yajug.lu"
+tags         = ["community", "events", "tech"]
+features     = ["responsive", "multilingual-ready"]
+min_version  = "0.120.0"

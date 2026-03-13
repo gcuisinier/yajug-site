@@ -1,0 +1,91 @@
+- name: "Aurore Simon"
+  role: "Membre du board"
+  photo: "/images/team/aurore-simon.png"
+  social: {}
+
+- name: "Gildas Cuisinier"
+  role: "Membre du board"
+  photo: "/images/team/gildas-cuisinier.jpg"
+  social:
+    twitter: "gcuisinier"
+    linkedin: "gcuisinier"
+    github: "gcuisinier"
+    bluesky: "gcuisinier.net"
+
+- name: "Pierre-Antoine Gregoire"
+  role: "Président"
+  photo: "/images/team/pierre-antoine-gregoire.jpg"
+  social:
+    twitter: "zepag"
+    linkedin: "pagregoire"
+
+- name: "Fabien Hanesse"
+  role: "Secrétaire"
+  photo: "/images/team/fabien-hanesse.jpg"
+  social:
+    linkedin: "fabien-hanesse"
+
+- name: "Mathieu Leclaire"
+  role: "Trésorier"
+  photo: "/images/team/mathieu-leclaire.jpg"
+  social:
+    twitter: "matleclaire"
+
+- name: "Sylvere Richard"
+  role: "Membre du board"
+  photo: "/images/team/sylvere-richard.jpeg"
+  social:
+    twitter: "nowheresly"
+
+- name: "Luigi Mastroserio"
+  role: "Membre du board"
+  photo: "/images/team/luigi-mastroserio.jpg"
+  social:
+    twitter: "Mastro1970"
+
+- name: "Nicolas Waeckerlé"
+  role: "Membre du board"
+  photo: "/images/team/nicolas-waeckerle.jpg"
+  social: {}
+
+- name: "Lucas Dehandschutter"
+  role: "Membre du board"
+  photo: "/images/team/lucas-dehandschutter.jpg"
+  social: {}
+
+- name: "Yannick Kirschhoffer"
+  role: "Membre du board"
+  photo: "/images/team/yannick-kirschhoffer.jpg"
+  social: {}
+
+- name: "Marc Gabriel-Willem"
+  role: "Ancien membre"
+  photo: "/images/team/marc-gabriel-willem.jpg"
+  social:
+    twitter: "mgwillem"
+    linkedin: "mgabriel"
+
+- name: "Jean-François Denis"
+  role: "Ancien membre"
+  photo: "/images/team/jean-francois-denis.jpg"
+  social:
+    linkedin: "jean-francois-denis"
+
+- name: "Alexis Vandendaele"
+  role: "Ancien membre"
+  photo: "/images/team/alexis-vandendaele.jpg"
+  social:
+    twitter: "_xi_"
+    github: "avandendaele"
+
+- name: "Annabelle Buffart"
+  role: "Ancien membre"
+  photo: "/images/team/annabelle-buffart.jpg"
+  social:
+    twitter: "yoseihana"
+
+- name: "Pierre-Jean L'Hôte"
+  role: "Ancien membre"
+  photo: "/images/team/pierre-jean-lhote.jpg"
+  social:
+    twitter: "pjlhote"

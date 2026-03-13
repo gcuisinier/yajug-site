@@ -1,0 +1,21 @@
+<article class="speaker-card">
+  <a href="{{ .RelPermalink }}" class="speaker-card__link">
+    <div class="speaker-card__photo-wrap">
+      {{ if .Params.photo }}
+      {{ partial "avif-picture.html" (dict "src" .Params.photo "alt" .Title "class" "speaker-card__photo") }}
+      {{ else }}
+      <div class="speaker-card__photo speaker-card__photo--placeholder">
+        <span>{{ substr .Title 0 1 }}</span>
+      </div>
+      {{ end }}
+    </div>
+    <!---->
+    <div class="speaker-card__info">
+      <h3 class="speaker-card__name">{{ .Title }}</h3>
+      
+    </div>
+  </a>
+  {{ with .Params.social }}
+  {{ partial "social-icons.html" . }}
+  {{ end }}
+</article>

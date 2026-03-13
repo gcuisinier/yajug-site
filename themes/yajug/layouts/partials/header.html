@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="header__inner">
+    <a href="{{ "/" | strings.TrimPrefix "/" | absURL }}" class="header__logo-link" aria-label="{{ site.Title }}">
+      {{ partial "avif-picture.html" (dict "src" site.Params.logoWhite "alt" site.Title "class" "header__logo" "loading" "eager") }}
+      <span class="header__logo-text" style="display:none">YAJUG</span>
+    </a>
+
+    <nav class="header__nav" id="main-nav" aria-label="Main navigation">
+      {{ range site.Menus.main }}
+      {{ $isActive := eq $.RelPermalink .URL }}
+      {{ $isExternal := .Params.external }}
+      {{ if .Params.divider }}<span class="nav__divider" aria-hidden="true"></span>{{ end }}
+      <a href="{{ .URL }}"
+         class="nav__link{{ if $isActive }} nav__link--active{{ end }}{{ if .Params.highlight }} nav__link--highlight{{ end }}"
+         {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}>
+        {{ .Name }}
+      </a>
+      {{ end }}
+    </nav>
+
+    <button class="header__burger" id="burger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+
+  <nav class="header__mobile-nav" id="mobile-nav" aria-hidden="true" aria-label="Mobile navigation">
+    {{ range site.Menus.main }}
+    {{ $isExternal := .Params.external }}
+    <a href="{{ .URL }}"
+       class="mobile-nav__link"
+       {{ if $isExternal }}target="_blank" rel="noopener"{{ end }}>
+      {{ .Name }}
+    </a>
+    {{ end }}
+  </nav>
+</div>

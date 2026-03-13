@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="single-page">
+  <div class="container container--narrow">
+    <header class="single-page__header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Date }}
+      <time datetime="{{ .Format "2006-01-02" }}" class="single-page__date">{{ .Format "January 2, 2006" }}</time>
+      {{ end }}
+    </header>
+    <div class="single-page__content prose">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

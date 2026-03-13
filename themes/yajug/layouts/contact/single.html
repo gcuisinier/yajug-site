@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="section section--contact">
+  <div class="container container--narrow">
+    <h1 class="page-title">{{ .Title }}</h1>
+
+    <div class="info-blocks">
+
+      {{/* Contact email */}}
+      <div class="info-block">
+        <div class="info-block__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div class="info-block__body">
+          <h2 class="info-block__title">Contact</h2>
+          <a href="mailto:{{ site.Params.contactEmail }}" class="info-block__value">{{ site.Params.contactEmail }}</a>
+        </div>
+      </div>
+
+      {{/* Adresse */}}
+      <div class="info-block">
+        <div class="info-block__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="info-block__body">
+          <h2 class="info-block__title">Adresse</h2>
+          <address class="info-block__value info-block__value--address">
+            5 Avenue des Hauts-Fourneaux<br>
+            4362 Esch-sur-Alzette<br>
+            Luxembourg
+          </address>
+        </div>
+      </div>
+
+      {{/* Compte bancaire */}}
+      <div class="info-block">
+        <div class="info-block__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        </div>
+        <div class="info-block__body">
+          <h2 class="info-block__title">Compte bancaire</h2>
+          <dl class="info-block__dl">
+            <dt>IBAN</dt>
+            <dd>LU89 0019 7855 9239 5000</dd>
+            <dt>BIC</dt>
+            <dd>BCEELULLXXX</dd>
+          </dl>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ end }}

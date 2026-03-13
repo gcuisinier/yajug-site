@@ -1,0 +1,15 @@
+{{/*
+  Renders a <picture> with AVIF source + original fallback.
+  Usage: {{ partial "avif-picture.html" (dict "src" "/images/foo.jpg" "alt" "..." "class" "my-class" "loading" "lazy") }}
+*/}}
+{{- $src     := .src -}}
+{{- $alt     := .alt | default "" -}}
+{{- $class   := .class | default "" -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- $avifSrc := replaceRE `\.(jpg|jpeg|png|gif)$` ".avif" $src -}}
+{{- $srcAbs     := $src | strings.TrimPrefix "/" | absURL -}}
+{{- $avifSrcAbs := $avifSrc | strings.TrimPrefix "/" | absURL -}}
+<picture>
+  <source srcset="{{ $avifSrcAbs }}" type="image/avif">
+  <img src="{{ $srcAbs }}" alt="{{ $alt }}" class="{{ $class }}"{{ if $loading }} loading="{{ $loading }}"{{ end }}>
+</picture>

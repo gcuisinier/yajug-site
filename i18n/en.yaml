@@ -1,0 +1,24 @@
+- id: next_event
+  translation: "Next Event"
+- id: upcoming_events
+  translation: "Upcoming Events"
+- id: past_events
+  translation: "Past Events"
+- id: register
+  translation: "Register on Eventbrite"
+- id: speakers
+  translation: "Speakers"
+- id: our_sponsors
+  translation: "Our Sponsors"
+- id: our_team
+  translation: "Our Team"
+- id: join_mailing_list
+  translation: "Join the mailing list"
+- id: read_more
+  translation: "Read more"
+- id: back_to_program
+  translation: "Back to program"
+- id: all_articles
+  translation: "All articles"
+- id: copyright
+  translation: "All rights reserved."

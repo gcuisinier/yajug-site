@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="section section--speakers">
+  <div class="container">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+    <div class="speakers-grid">
+      {{ range .Pages }}
+      {{ partial "speaker-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

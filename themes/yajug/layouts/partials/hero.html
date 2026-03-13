@@ -1,0 +1,40 @@
+{{ $page := .page | default . }}
+{{ $nextEvent := .nextEvent }}
+<section class="hero{{ if $nextEvent }} hero--with-event{{ end }}" style="{{ with $page.Params.heroBg | default site.Params.heroBg }}background-image: url('{{ . | strings.TrimPrefix "/" | absURL }}');{{ end }}">
+  <div class="hero__overlay"></div>
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">{{ $page.Params.hero_title | default site.Title }}</h1>
+        {{ with $page.Params.hero_subtitle }}
+        <p class="hero__subtitle">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      {{ with $nextEvent }}
+      <div class="hero__next-event">
+        <p class="hero__next-event-label">Prochain événement</p>
+        <div class="hero-event-card">
+          <div class="hero-event-card__date">
+            <span class="hero-event-card__day">{{ dateFormat "02" .Params.event_date }}</span>
+            <span class="hero-event-card__month">{{ dateFormat "Jan" .Params.event_date }}</span>
+            <span class="hero-event-card__year">{{ dateFormat "2006" .Params.event_date }}</span>
+          </div>
+          <div class="hero-event-card__body">
+            <h3 class="hero-event-card__title">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+            {{ with .Params.event_time }}
+            <p class="hero-event-card__meta">{{ . }}{{ with $.Params.venue }} · {{ . }}{{ end }}</p>
+            {{ end }}
+            {{ with .Params.speakers }}
+            <p class="hero-event-card__speakers">{{ range $i, $s := . }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}</p>
+            {{ end }}
+            <a href="{{ .RelPermalink }}" class="btn btn--outline btn--sm" style="margin-top:.75rem">Voir les détails</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

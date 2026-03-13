@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="section section--about">
+  <div class="container">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="about-content prose">
+      {{ . }}
+    </div>
+    {{ end }}
+    {{ with site.Data.team }}
+    <h2 class="section-subtitle">Our Team</h2>
+    <div class="team-grid">
+      {{ range . }}
+      {{ partial "team-card.html" . }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

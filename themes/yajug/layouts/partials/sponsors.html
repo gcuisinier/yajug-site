@@ -1,0 +1,43 @@
+{{ with site.Data.sponsors }}
+<section class="section section--sponsors" id="sponsors">
+  <div class="container">
+    <h2 class="section-title">Our Sponsors</h2>
+    {{ with .platinum }}
+    <div class="sponsors-tier sponsors-tier--platinum">
+      <h3 class="sponsors-tier__label">Platinum</h3>
+      <div class="sponsors-tier__logos">
+        {{ range . }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" class="sponsor-logo-link" title="{{ .name }}">
+          {{ partial "avif-picture.html" (dict "src" .logo "alt" .name "class" "sponsor-logo") }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    {{ with .gold }}
+    <div class="sponsors-tier sponsors-tier--gold">
+      <h3 class="sponsors-tier__label">Gold</h3>
+      <div class="sponsors-tier__logos">
+        {{ range . }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" class="sponsor-logo-link" title="{{ .name }}">
+          {{ partial "avif-picture.html" (dict "src" .logo "alt" .name "class" "sponsor-logo") }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+    {{ with .community }}
+    <div class="sponsors-tier sponsors-tier--community">
+      <h3 class="sponsors-tier__label">Community</h3>
+      <div class="sponsors-tier__logos">
+        {{ range . }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" class="sponsor-logo-link" title="{{ .name }}">
+          {{ partial "avif-picture.html" (dict "src" .logo "alt" .name "class" "sponsor-logo") }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

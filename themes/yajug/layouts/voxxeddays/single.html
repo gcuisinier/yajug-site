@@ -1,0 +1,121 @@
+{{ define "main" }}
+<div class="vxd-page">
+
+  {{/* ── Hero ─────────────────────────────────────────────── */}}
+  <section class="vxd-hero">
+    <div class="vxd-hero__overlay"></div>
+    <div class="container">
+      <div class="vxd-hero__content">
+        <p class="vxd-hero__eyebrow">Organisé par le YAJUG</p>
+        <h1 class="vxd-hero__logo-wrap">
+          <img src="{{ "/images/voxxeddays-luxembourg.svg" | strings.TrimPrefix "/" | absURL }}" alt="Voxxed Days Luxembourg" class="vxd-hero__logo-img">
+        </h1>
+        <p class="vxd-hero__subtitle">La conférence IT des développeurs, par des développeurs — au cœur du Grand-Duché.</p>
+        <div class="vxd-hero__badges">
+          <span class="vxd-badge">7ᵉ édition</span>
+          <span class="vxd-badge">500 participants</span>
+          <span class="vxd-badge">2 jours</span>
+          <span class="vxd-badge">Casino 2000, Mondorf-les-Bains</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    {{/* ── Next edition ──────────────────────────────────── */}}
+    <section class="vxd-section">
+      <div class="vxd-next-edition">
+        <div class="vxd-next-edition__date">
+          <span class="vxd-next-edition__day">18 – 19</span>
+          <span class="vxd-next-edition__month">Juin 2026</span>
+        </div>
+        <div class="vxd-next-edition__info">
+          <h2 class="vxd-next-edition__title">Prochaine édition</h2>
+          <p class="vxd-next-edition__venue">📍 Casino 2000 — Rue Th. Flammang, L-5618 Mondorf-les-Bains</p>
+          <p class="vxd-next-edition__desc">Rejoignez-nous pour deux journées intenses de conférences, workshops et networking autour des dernières tendances du développement logiciel.</p>
+        </div>
+      </div>
+    </section>
+
+    {{/* ── Description ───────────────────────────────────── */}}
+    <section class="vxd-section">
+      <h2 class="vxd-section__title">La conférence</h2>
+      <div class="vxd-description prose">
+        <p>Voxxed Days Luxembourg est un événement IT <strong>pour les développeurs, organisé par des développeurs</strong>, membre de la famille <a href="https://devoxx.com" target="_blank" rel="noopener">Devoxx</a>. Initiée et portée par le YAJUG, elle rassemble chaque année près de 500 professionnels du développement logiciel autour de talks, keynotes et workshops de haut niveau.</p>
+        <p>Pendant 2 jours, des speakers internationaux et locaux partagent leur expertise sur 9 grandes thématiques : backend, cloud &amp; DevOps, architecture, IA &amp; machine learning, mobile, langages, sécurité, accessibilité et big data. La conférence se tient au Casino 2000 de Mondorf-les-Bains, un cadre exceptionnel au Luxembourg.</p>
+        <p>Depuis sa première édition, Voxxed Days Luxembourg est devenu le rendez-vous incontournable de la communauté tech luxembourgeoise et de la Grande Région.</p>
+      </div>
+    </section>
+
+    {{/* ── Action links ──────────────────────────────────── */}}
+    <section class="vxd-section">
+      <h2 class="vxd-section__title">Liens utiles</h2>
+      <div class="vxd-links">
+
+        <a href="https://voxxedlu2026.cfp.dev" class="vxd-link-card" target="_blank" rel="noopener">
+          <div class="vxd-link-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <div class="vxd-link-card__body">
+            <strong>Call for Papers</strong>
+            <span>Soumettez votre proposition de talk · CFP ouvert jusqu'au 29 mars 2026</span>
+          </div>
+          <svg class="vxd-link-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a href="https://yp.events/9bfeacf5-b04d-4c6f-8e2d-026f74aeb27e/Voxxed-Days-Luxembourg-2025" class="vxd-link-card" target="_blank" rel="noopener">
+          <div class="vxd-link-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2z"/><path d="M13 5v2M13 17v2M13 11v2"/></svg>
+          </div>
+          <div class="vxd-link-card__body">
+            <strong>Billetterie</strong>
+            <span>Early Bird 229€ · Standard 249€</span>
+          </div>
+          <svg class="vxd-link-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a href="{{ "/files/plaquette-sponsor-2026.pdf" | strings.TrimPrefix "/" | absURL }}" class="vxd-link-card" target="_blank" rel="noopener">
+          <div class="vxd-link-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <div class="vxd-link-card__body">
+            <strong>Dossier de sponsoring</strong>
+            <span>Plaquette sponsor 2026 — PDF</span>
+          </div>
+          <svg class="vxd-link-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCPLFcPPtjRCVVa4yxm-EEgA" class="vxd-link-card" target="_blank" rel="noopener">
+          <div class="vxd-link-card__icon vxd-link-card__icon--yt">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1C4.5 20.4 12 20.4 12 20.4s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.8 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg>
+          </div>
+          <div class="vxd-link-card__body">
+            <strong>Vidéos des éditions précédentes</strong>
+            <span>Tous les talks sur YouTube — 2016 à 2025</span>
+          </div>
+          <svg class="vxd-link-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+      </div>
+    </section>
+
+    {{/* ── Topics ────────────────────────────────────────── */}}
+    <section class="vxd-section">
+      <h2 class="vxd-section__title">Thématiques</h2>
+      <div class="vxd-topics">
+        <span class="vxd-topic">Backend</span>
+        <span class="vxd-topic">Cloud &amp; DevOps</span>
+        <span class="vxd-topic">Architecture &amp; Sécurité</span>
+        <span class="vxd-topic">Intelligence Artificielle</span>
+        <span class="vxd-topic">Big Data &amp; Machine Learning</span>
+        <span class="vxd-topic">Mobile &amp; IoT</span>
+        <span class="vxd-topic">Langages</span>
+        <span class="vxd-topic">Accessibilité &amp; UX</span>
+        <span class="vxd-topic">Agile &amp; Culture</span>
+      </div>
+    </section>
+
+  </div>
+</div>
+{{ end }}

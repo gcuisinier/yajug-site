@@ -1,0 +1,26 @@
+<article class="blog-card">
+  {{ with .Params.featured_image }}
+  <a href="{{ $.RelPermalink }}" class="blog-card__image-link">
+    <img src="{{ . }}" alt="{{ $.Title }}" class="blog-card__image" loading="lazy">
+  </a>
+  {{ end }}
+  <div class="blog-card__body">
+    <div class="blog-card__meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}" class="blog-card__date">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      {{ with .Params.author }}
+      <span class="blog-card__author">{{ . }}</span>
+      {{ end }}
+    </div>
+    <h3 class="blog-card__title">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
+    {{ with .Params.excerpt }}
+    <p class="blog-card__excerpt">{{ . }}</p>
+    {{ else }}
+    <p class="blog-card__excerpt">{{ .Summary | truncate 150 }}</p>
+    {{ end }}
+    <a href="{{ .RelPermalink }}" class="blog-card__read-more">Read more →</a>
+  </div>
+</article>

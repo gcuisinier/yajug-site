@@ -1,0 +1,75 @@
+{{ define "main" }}
+<article class="event-single">
+  <div class="container">
+    <header class="event-single__header">
+      <div class="event-single__badge{{ if .Params.past }} event-single__badge--past{{ end }}">
+        {{ if .Params.past }}Past Event{{ else }}Upcoming{{ end }}
+      </div>
+      <h1 class="event-single__title">{{ .Title }}</h1>
+      <div class="event-single__meta">
+        {{ with .Params.event_date }}
+        <div class="event-single__meta-item">
+          <span class="event-single__meta-icon">📅</span>
+          <time datetime="{{ . }}">{{ dateFormat "Monday, January 2, 2006" . }}</time>
+        </div>
+        {{ end }}
+        {{ with .Params.event_time }}
+        <div class="event-single__meta-item">
+          <span class="event-single__meta-icon">🕐</span>
+          <span>{{ . }}</span>
+        </div>
+        {{ end }}
+        {{ with .Params.venue }}
+        <div class="event-single__meta-item">
+          <span class="event-single__meta-icon">📍</span>
+          <span>{{ . }}</span>
+        </div>
+        {{ end }}
+      </div>
+      {{ if not .Params.past }}
+      {{ with .Params.eventbrite_url }}
+      <a href="{{ . }}" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+        Register on Eventbrite →
+      </a>
+      {{ end }}
+      {{ with .Params.meetup_url }}
+      <a href="{{ . }}" class="btn btn--outline btn--lg" target="_blank" rel="noopener">
+        View on Meetup
+      </a>
+      {{ end }}
+      {{ end }}
+    </header>
+
+    {{ with .Params.speakers }}
+    <div class="event-single__speakers">
+      <h2>Speakers</h2>
+      <div class="speakers-mini-grid">
+        {{ range . }}
+        {{ $slug := .slug }}
+        {{ $speakerPage := site.GetPage (printf "/speakers/%s" $slug) }}
+        {{ if $speakerPage }}
+        {{ partial "speaker-card.html" $speakerPage }}
+        {{ else }}
+        <div class="speaker-card speaker-card--inline">
+          <div class="speaker-card__info">
+            <h3 class="speaker-card__name">{{ .name }}</h3>
+          </div>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+    {{ with .Content }}
+    <div class="event-single__content prose">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    <div class="event-single__back">
+      <a href="{{ "/program/" | strings.TrimPrefix "/" | absURL }}" class="btn btn--text">← Back to Program</a>
+    </div>
+  </div>
+</article>
+{{ end }}

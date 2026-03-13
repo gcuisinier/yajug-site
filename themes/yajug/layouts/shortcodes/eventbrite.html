@@ -1,0 +1,7 @@
+<div class="eventbrite-widget">
+  <a href="https://www.eventbrite.com/e/{{ .Get "id" }}"
+     class="btn btn--primary"
+     target="_blank" rel="noopener">
+    {{ .Get "text" | default "Register on Eventbrite" }} →
+  </a>
+</div>

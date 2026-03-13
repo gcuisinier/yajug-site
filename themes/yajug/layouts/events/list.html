@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+{{/* ── Serialize all events for the calendar ─────────────────── */}}
+{{ $events := slice }}
+{{ range .Pages }}
+  {{ $events = $events | append (dict
+    "title"     .Title
+    "url"       .RelPermalink
+    "date"      (.Params.event_date | default (.Date.Format "2006-01-02"))
+    "time"      (.Params.event_time | default "")
+    "venue"     (.Params.venue | default "")
+    "past"      (.Params.past | default false)
+  ) }}
+{{ end }}
+<script>window.YAJUG_EVENTS = {{ $events | jsonify | safeJS }};</script>
+
+<section class="section section--events">
+  <div class="container">
+    <div class="events-header">
+      <h1 class="page-title">{{ .Title }}</h1>
+      <div class="view-toggle" role="group" aria-label="View mode">
+        <button class="view-toggle__btn is-active" id="btn-list" aria-pressed="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="0" y="2" width="16" height="2"/><rect x="0" y="7" width="16" height="2"/><rect x="0" y="12" width="16" height="2"/></svg>
+          Liste
+        </button>
+        <button class="view-toggle__btn" id="btn-cal" aria-pressed="false">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M5 0v2H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-2V0H9v2H7V0H5zm-2 5h10v9H3V5zm2 2v2h2V7H5zm4 0v2h2V7H9zm-4 4v2h2v-2H5z"/></svg>
+          Calendrier
+        </button>
+      </div>
+    </div>
+
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+
+    {{/* ── List view ─────────────────────────────────────────── */}}
+    <div id="view-list">
+      {{ $upcoming := where .Pages ".Params.past" false }}
+      {{ $past     := where .Pages ".Params.past" true }}
+
+      {{ with $upcoming }}
+      <div class="events-group">
+        <h2 class="events-group__title">Upcoming Events</h2>
+        <div class="events-list">
+          {{ range . }}
+          {{ partial "event-card.html" (dict "event" . "featured" false) }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with $past }}
+      <div class="events-group events-group--past">
+        <h2 class="events-group__title">Past Events</h2>
+        <div class="events-list">
+          {{ range . }}
+          {{ partial "event-card.html" (dict "event" . "featured" false) }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    {{/* ── Calendar view ─────────────────────────────────────── */}}
+    <div id="view-cal" class="cal" hidden>
+      <div class="cal__nav">
+        <button class="cal__nav-btn" id="cal-prev" aria-label="Année précédente">&#8249;</button>
+        <span class="cal__year-label" id="cal-year-label"></span>
+        <button class="cal__nav-btn" id="cal-next" aria-label="Année suivante">&#8250;</button>
+      </div>
+      <div class="cal__grid" id="cal-grid"></div>
+      <div class="cal__panel" id="cal-panel" hidden></div>
+    </div>
+
+  </div>
+</section>
+{{ end }}

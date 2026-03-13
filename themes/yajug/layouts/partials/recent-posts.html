@@ -1,0 +1,16 @@
+{{ $posts := where site.RegularPages "Section" "blog" | first 3 }}
+{{ with $posts }}
+<section class="section section--recent-posts">
+  <div class="container">
+    <h2 class="section-title">Latest News</h2>
+    <div class="blog-grid">
+      {{ range . }}
+      {{ partial "blog-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="section__cta">
+      <a href="{{ "/blog/" | strings.TrimPrefix "/" | absURL }}" class="btn btn--outline">All articles</a>
+    </div>
+  </div>
+</section>
+{{ end }}

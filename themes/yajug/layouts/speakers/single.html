@@ -1,0 +1,105 @@
+{{ define "main" }}
+<article class="speaker-profile">
+
+  {{/* ── Hero banner ──────────────────────────────────────── */}}
+  <div class="speaker-hero"{{ if .Params.photo }} style="--speaker-photo: url('{{ .Params.photo | absURL }}')"{{ end }}>
+    <div class="container">
+      <h1 class="speaker-hero__name">{{ .Title }}</h1>
+      {{ with .Params.role }}
+      <p class="speaker-hero__role">{{ . }}{{ with $.Params.company }}, {{ . }}{{ end }}</p>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="speaker-layout">
+
+      {{/* ── Left sidebar ──────────────────────────────────── */}}
+      <aside class="speaker-sidebar">
+        <div class="speaker-sidebar__card">
+          {{ if .Params.photo }}
+          {{ partial "avif-picture.html" (dict "src" .Params.photo "alt" .Title "class" "speaker-sidebar__photo" "loading" "eager") }}
+          {{ else }}
+          <div class="speaker-sidebar__photo speaker-sidebar__photo--placeholder">
+            <span>{{ substr .Title 0 1 }}</span>
+          </div>
+          {{ end }}
+          <div class="speaker-sidebar__identity">
+            <p class="speaker-sidebar__name">{{ .Title }}</p>
+            {{ with .Params.role }}
+            <p class="speaker-sidebar__role">{{ . }}{{ with $.Params.company }}, {{ . }}{{ end }}</p>
+            {{ end }}
+          </div>
+        </div>
+        {{ with .Params.social }}
+        <div class="speaker-sidebar__social">
+          {{ partial "social-icons.html" . }}
+        </div>
+        {{ end }}
+        <div class="speaker-sidebar__back">
+          <a href="{{ "/speakers/" | strings.TrimPrefix "/" | absURL }}" class="btn btn--text">← All Speakers</a>
+        </div>
+      </aside>
+
+      {{/* ── Right main column ─────────────────────────────── */}}
+      <div class="speaker-main">
+        {{ with .Content }}
+        <section class="speaker-main__section">
+          <h2 class="speaker-main__section-title">Biography</h2>
+          <div class="prose">{{ . }}</div>
+        </section>
+        {{ end }}
+
+        {{/* ── Talks by this speaker ──────────────────────── */}}
+        {{ $speakerSlug := .Slug }}
+        {{ $talks := slice }}
+        {{ range where site.RegularPages "Section" "events" }}
+          {{ $event := . }}
+          {{ range .Params.speakers }}
+            {{ if eq .slug $speakerSlug }}
+              {{ $talks = $talks | append $event }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ with $talks }}
+        {{ $sorted := sort . ".Params.event_date" "desc" }}
+        <section class="speaker-main__section">
+          <h2 class="speaker-main__section-title">All sessions by {{ $.Title }}</h2>
+          <div class="session-list">
+            {{ range $sorted }}
+            <div class="session-card{{ if .Params.past }} session-card--past{{ end }}">
+              <div class="session-card__header">
+                <a class="session-card__event" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                {{ if .Params.past }}
+                <span class="session-card__badge">Passé</span>
+                {{ else }}
+                <span class="session-card__badge session-card__badge--upcoming">À venir</span>
+                {{ end }}
+              </div>
+              <div class="session-card__body">
+                {{ if .Params.event_date }}
+                <span class="session-card__meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  {{ .Params.event_date }}
+                </span>
+                {{ end }}
+                {{ if gt (len .Params.speakers) 1 }}
+                <span class="session-card__meta">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                  {{ range $i, $s := .Params.speakers }}{{ if $i }}, {{ end }}{{ $s.name }}{{ end }}
+                </span>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+
+</article>
+{{ end }}
