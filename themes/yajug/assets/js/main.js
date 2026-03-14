@@ -1,6 +1,25 @@
 /* YAJUG — main.js */
+
 (function () {
   'use strict';
+
+  /* ── Theme Toggle ────────────────────────────────────────── */
+  var themeBtn = document.getElementById('theme-toggle-btn');
+
+  function getEffectiveTheme() {
+    var saved = localStorage.getItem('yajug-theme');
+    if (saved) return saved;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  if (themeBtn) {
+    themeBtn.addEventListener('click', function () {
+      var current = getEffectiveTheme();
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('yajug-theme', next);
+    });
+  }
 
   /* ── Burger / Mobile Nav ─────────────────────────────────── */
   var burger    = document.getElementById('burger-btn');
