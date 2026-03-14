@@ -1,4 +1,4 @@
 ---
-title: "Speakers"
-description: "Speakers who have presented at YAJUG meetups."
+title: "Conférenciers"
+description: "Conférenciers venus au YaJUG"
 ---

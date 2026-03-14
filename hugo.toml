@@ -21,7 +21,7 @@ mailingList    = "https://groups.google.com/g/yajug"
 
 
 [permalinks]
-  program  = '/program/:slug/'
+  program  = '/conferences/:slug/'
   blog     = '/blog/:year/:month/:slug/'
   speakers = '/speakers/:slug/'
 

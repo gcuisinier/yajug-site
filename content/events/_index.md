@@ -1,4 +1,4 @@
 ---
-title: "Program"
-description: "YAJUG meetup events — past and upcoming sessions in Luxembourg."
+title: "Conférences"
+description: "Conférence du YaJUG — Ancienne et à venir."
 ---

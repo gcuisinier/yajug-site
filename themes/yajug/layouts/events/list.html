@@ -14,10 +14,11 @@
 {{ end }}
 <script>window.YAJUG_EVENTS = {{ $events | jsonify | safeJS }};</script>
 
+{{ partial "page-hero.html" (dict "title" .Title) }}
+
 <section class="section section--events">
   <div class="container">
     <div class="events-header">
-      <h1 class="page-title">{{ .Title }}</h1>
       <div class="view-toggle" role="group" aria-label="View mode">
         <button class="view-toggle__btn is-active" id="btn-list" aria-pressed="true">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><rect x="0" y="2" width="16" height="2"/><rect x="0" y="7" width="16" height="2"/><rect x="0" y="12" width="16" height="2"/></svg>

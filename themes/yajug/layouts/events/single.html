@@ -1,12 +1,9 @@
 {{ define "main" }}
+{{ partial "page-hero.html" (dict "title" .Title "subtitle" (cond (not .Params.past) "Upcoming Event" "Past Event")) }}
 <article class="event-single">
   <div class="container">
     <div class="event-single__top">
       <header class="event-single__header">
-        <div class="event-single__badge{{ if .Params.past }} event-single__badge--past{{ end }}">
-          {{ if .Params.past }}Past Event{{ else }}Upcoming{{ end }}
-        </div>
-        <h1 class="event-single__title">{{ .Title }}</h1>
         <div class="event-single__meta">
           {{ with .Params.event_date }}
           <div class="event-single__meta-item">

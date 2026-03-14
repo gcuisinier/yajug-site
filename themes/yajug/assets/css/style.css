@@ -697,6 +697,32 @@ ul, ol { list-style: none; }
 /* Speaker profile */
 .speaker-profile { padding-bottom: 4rem; }
 
+/* ── Page hero banner (shared) ─────────────────────────────── */
+.page-hero {
+  position: relative;
+  padding: 3.5rem 0 2.75rem;
+  background: linear-gradient(to right, var(--color-bg-dark) 0%, #4a0010 60%, var(--color-primary-dark) 100%);
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.page-hero .container { position: relative; z-index: 1; }
+.page-hero__title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--color-white);
+  margin-bottom: .3rem;
+}
+.page-hero__subtitle {
+  font-size: 1rem;
+  color: rgba(255,255,255,.75);
+  font-style: italic;
+}
+@media (max-width: 640px) {
+  .page-hero__title { font-size: 1.6rem; }
+}
+
 /* Hero banner */
 .speaker-hero {
   position: relative;
