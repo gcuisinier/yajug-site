@@ -4,14 +4,14 @@
 
 /* ── 1. Custom Properties ─────────────────────────────────── */
 :root {
-  --color-primary:        #e63946;
-  --color-primary-dark:   #c1121f;
-  --color-secondary:      #1d3557;
-  --color-secondary-light:#457b9d;
-  --color-accent:         #a8dadc;
+  --color-primary:        #C8102E;  /* Luxembourg red (darker) */
+  --color-primary-dark:   #8B0000;
+  --color-secondary:      #005F8E;  /* Luxembourg blue (darker) */
+  --color-secondary-light:#0089CC;
+  --color-accent:         #7ec8e3;
   --color-bg:             #ffffff;
-  --color-bg-subtle:      #f8f9fa;
-  --color-bg-dark:        #1a1a2e;
+  --color-bg-subtle:      #e8f4fb;
+  --color-bg-dark:        #002a4a;
   --color-text:           #212529;
   --color-text-muted:     #6c757d;
   --color-border:         #dee2e6;
@@ -107,7 +107,7 @@ ul, ol { list-style: none; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: var(--color-secondary);
+  background: var(--color-bg-dark);
   box-shadow: var(--shadow-sm);
   height: var(--header-height);
   display: flex;
@@ -310,7 +310,7 @@ ul, ol { list-style: none; }
   min-height: 480px;
   display: flex;
   align-items: center;
-  background: var(--color-secondary) center/cover no-repeat;
+  background: linear-gradient(to right, #002a4a 0%, #6B0018 50%, #C8102E 100%) center/cover no-repeat;
   color: var(--color-white);
   padding: 4rem 0;
 }
@@ -318,7 +318,7 @@ ul, ol { list-style: none; }
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(29,53,87,.92) 0%, rgba(230,57,70,.6) 100%);
+  background: rgba(0, 0, 0, .25);
 }
 
 .hero__inner {
@@ -1214,6 +1214,17 @@ ul, ol { list-style: none; }
 
 /* ── 19. Event single ─────────────────────────────────────── */
 .event-single { padding: 3rem 0; }
+.event-single__top {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.event-single__header { flex: 3; min-width: 0; }
+.event-single__speakers { flex: 2; min-width: 0; margin: 0; }
+@media (max-width: 720px) {
+  .event-single__top { flex-direction: column; gap: 2rem; }
+}
 .event-single__badge {
   display: inline-block;
   padding: .25rem .75rem;
@@ -1231,8 +1242,45 @@ ul, ol { list-style: none; }
 .event-single__meta { display: flex; flex-direction: column; gap: .5rem; margin-bottom: 2rem; }
 .event-single__meta-item { display: flex; align-items: center; gap: .625rem; font-size: 1rem; }
 .event-single__meta-icon { font-size: 1.125rem; }
-.event-single__speakers { margin: 2.5rem 0; }
+.event-single__speakers { margin: 0; }
 .event-single__speakers h2 { font-size: 1.5rem; font-weight: 700; color: var(--color-secondary); margin-bottom: 1.25rem; }
+
+/* Compact speaker cards inside event page */
+.event-single__speakers .speakers-mini-grid {
+  grid-template-columns: 1fr;
+  gap: .625rem;
+}
+.event-single__speakers .speaker-card {
+  display: flex;
+  align-items: center;
+  gap: .875rem;
+  border-radius: var(--radius);
+  transform: none;
+  padding: .625rem .875rem;
+}
+.event-single__speakers .speaker-card:hover { transform: none; box-shadow: var(--shadow-sm); }
+.event-single__speakers .speaker-card__link {
+  display: flex;
+  align-items: center;
+  gap: .875rem;
+  flex: 1;
+}
+.event-single__speakers .speaker-card__photo-wrap {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+.event-single__speakers .speaker-card__info {
+  padding: 0;
+  flex: 1;
+}
+.event-single__speakers .speaker-card .social-icons {
+  justify-content: flex-start;
+  padding: 0 .75rem .5rem;
+}
 .event-single__content { margin: 2rem 0; }
 .event-single__back { margin-top: 3rem; border-top: 1px solid var(--color-border); padding-top: 1.5rem; }
 
@@ -1492,7 +1540,7 @@ ul, ol { list-style: none; }
 /* ── Voxxed Days page ──────────────────────────────────────── */
 .vxd-hero {
   position: relative;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #002a4a 0%, #004070 50%, #005F8E 100%);
   color: #fff;
   padding: 5rem 0;
   overflow: hidden;

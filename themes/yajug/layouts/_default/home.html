@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $upcoming := where (where site.RegularPages "Section" "program") ".Params.past" false }}
+  {{ $upcoming := where (where site.RegularPages "Section" "events") ".Params.past" false }}
   {{ $nextEvent := index ($upcoming | first 1) 0 }}
   {{ partial "hero.html" (dict "page" . "nextEvent" $nextEvent) }}
 
