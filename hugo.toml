@@ -14,14 +14,13 @@ enableGitInfo = false
   logo           = "/images/logo.png"
   logoWhite      = "/images/logo-white.png"
 mailingList    = "https://groups.google.com/g/yajug"
-  contactEmail   = "info@yajug.lu"
+  contactEmail   = "admin@yajug.org"
   twitter        = "yajug"
- 
   github         = "yajug"
 
 
 [permalinks]
-  program  = '/conferences/:slug/'
+  program  = '/program/:slug/'
   blog     = '/blog/:year/:month/:slug/'
   speakers = '/speakers/:slug/'
 

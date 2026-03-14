@@ -1806,3 +1806,39 @@ ul, ol { list-style: none; }
   .vxd-next-edition { flex-direction: column; align-items: flex-start; }
   .vxd-hero { padding: 3rem 0; }
 }
+
+/* ── Partner Events ───────────────────────────────────────── */
+.section--partner-events { background: var(--color-bg-subtle); }
+
+.partner-events { display: flex; flex-direction: column; gap: 2rem; }
+
+.partner-event {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.partner-event__banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity var(--transition);
+}
+.partner-event__banner:hover { opacity: .9; }
+
+.partner-event__text {
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+.partner-event__text p { margin-bottom: .75rem; }
+.partner-event__text p:last-child { margin-bottom: 0; }
+.partner-event__text strong { color: var(--color-primary); }
+.partner-event__text a { color: var(--color-secondary); text-decoration: underline; }
+.partner-event__text a:hover { color: var(--color-secondary-light); }
+
+@media (max-width: 768px) {
+  .partner-event__text { padding: 1.25rem; }
+}

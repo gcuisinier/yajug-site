@@ -1,0 +1,17 @@
+{{ with site.Data.partner_events }}
+<section class="section section--partner-events" id="partner-events">
+  <div class="container">
+    <h2 class="section-title">Évènements Partenaires</h2>
+    <div class="partner-events">
+      {{ range . }}
+      <div class="partner-event">
+        <a href="{{ .url }}" target="_blank" rel="noopener">
+          <img src="{{ .banner | strings.TrimPrefix "/" | absURL }}" alt="{{ .name }}" class="partner-event__banner" loading="lazy">
+        </a>
+        <div class="partner-event__text">{{ .text | markdownify }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

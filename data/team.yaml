@@ -18,6 +18,7 @@
   social:
     twitter: "zepag"
     linkedin: "pagregoire"
+    bluesky: "@zepag.fr"
 
 - name: "Fabien Hanesse"
   role: "Secrétaire"
@@ -30,6 +31,7 @@
   photo: "/images/team/mathieu-leclaire.jpg"
   social:
     twitter: "matleclaire"
+    bluesky: "@matleclaire.bsky.social"
 
 - name: "Sylvere Richard"
   role: "Membre du board"
@@ -43,8 +45,30 @@
   social:
     twitter: "Mastro1970"
 
-- name: "Nicolas Waeckerlé"
+- name: "Benjamin Vouillaume"
   role: "Membre du board"
+  photo: "/images/team/benjamin-vouillaume.jpg"
+  social:
+    twitter: "vbenji"
+    linkedin: "benjaminvouillaume"
+    github: "vbenji"
+    bluesky: "vbenji.bsky.social"
+
+- name: "Rodislav Moldovan"
+  role: "Membre du board"
+  photo: "/images/team/rodislav-moldovan.jpg"
+  social:
+    twitter: "rodislavable"
+    linkedin: "rodislav"
+    github: "rodislav"
+
+- name: "Catalin Samarghitan"
+  role: "Membre du board"
+  photo: ""
+  social: {}
+
+- name: "Nicolas Waeckerlé"
+  role: "Ancien membre"
   photo: "/images/team/nicolas-waeckerle.jpg"
   social: {}
 
@@ -89,3 +113,4 @@
   photo: "/images/team/pierre-jean-lhote.jpg"
   social:
     twitter: "pjlhote"
+
