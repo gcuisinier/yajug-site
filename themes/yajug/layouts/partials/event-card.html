@@ -1,6 +1,6 @@
 {{ $event := .event }}
 {{ $featured := .featured }}
-<article class="event-card{{ if $featured }} event-card--featured{{ end }}{{ if $event.Params.past }} event-card--past{{ end }}">
+<article class="event-card{{ if $featured }} event-card--featured{{ end }}{{ if $event.Params.past }} event-card--past{{ end }}" data-search="{{ $event.Title | lower }} {{ range $event.Params.speakers }}{{ .name | lower }} {{ end }}{{ $event.Params.description | lower }} {{ delimit $event.Params.tags " " | lower }}">
   <div class="event-card__date">
     {{ with $event.Params.event_date }}
     <time datetime="{{ . }}">

@@ -3,11 +3,46 @@
 <section class="section section--speakers">
   <div class="container">
     {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
-    <div class="speakers-grid">
+
+    <div class="search-bar">
+      <svg class="search-bar__icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.868-3.834zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+      </svg>
+      <input type="search" id="speaker-search" class="search-bar__input"
+             placeholder="Rechercher un conférencier…" autocomplete="off" spellcheck="false">
+      <span class="search-bar__count" id="speaker-count" aria-live="polite"></span>
+    </div>
+
+    <div class="speakers-grid" id="speakers-grid">
       {{ range .Pages }}
       {{ partial "speaker-card.html" . }}
       {{ end }}
     </div>
+    <p class="search-empty" id="speakers-empty" hidden>Aucun conférencier ne correspond à votre recherche.</p>
   </div>
 </section>
+
+<script>
+(function () {
+  const input  = document.getElementById('speaker-search');
+  const cards  = document.querySelectorAll('#speakers-grid .speaker-card');
+  const empty  = document.getElementById('speakers-empty');
+  const count  = document.getElementById('speaker-count');
+  const total  = cards.length;
+
+  function update() {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+    cards.forEach(card => {
+      const match = !q || card.dataset.search.includes(q);
+      card.hidden = !match;
+      if (match) visible++;
+    });
+    empty.hidden = visible > 0;
+    count.textContent = q ? visible + ' / ' + total : '';
+  }
+
+  input.addEventListener('input', update);
+})();
+</script>
 {{ end }}

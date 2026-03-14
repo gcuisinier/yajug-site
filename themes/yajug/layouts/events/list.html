@@ -29,6 +29,14 @@
           Calendrier
         </button>
       </div>
+      <div class="search-bar search-bar--events" id="events-search-wrap">
+        <svg class="search-bar__icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.868-3.834zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+        </svg>
+        <input type="search" id="event-search" class="search-bar__input"
+               placeholder="Rechercher un talk, speaker, tag…" autocomplete="off" spellcheck="false">
+        <span class="search-bar__count" id="event-count" aria-live="polite"></span>
+      </div>
     </div>
 
     {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
@@ -69,6 +77,8 @@
       {{ end }}
     </div>
 
+    <p class="search-empty" id="events-empty" hidden>Aucun événement ne correspond à votre recherche.</p>
+
     {{/* ── Calendar view ─────────────────────────────────────── */}}
     <div id="view-cal" class="cal" hidden>
       <div class="cal__nav">
@@ -82,4 +92,54 @@
 
   </div>
 </section>
+
+<script>
+(function () {
+  const input      = document.getElementById('event-search');
+  const countEl    = document.getElementById('event-count');
+  const empty      = document.getElementById('events-empty');
+  const listView   = document.getElementById('view-list');
+  const searchWrap = document.getElementById('events-search-wrap');
+  const btnCal     = document.getElementById('btn-cal');
+  const btnList    = document.getElementById('btn-list');
+
+  /* hide search when calendar is active */
+  btnCal.addEventListener('click',  () => { searchWrap.hidden = true;  clearSearch(); });
+  btnList.addEventListener('click', () => { searchWrap.hidden = false; });
+
+  function clearSearch() {
+    input.value = '';
+    update();
+  }
+
+  function update() {
+    const q = input.value.trim().toLowerCase();
+    const cards = listView.querySelectorAll('.event-card');
+    let total = 0, visible = 0;
+
+    cards.forEach(card => {
+      total++;
+      const match = !q || card.dataset.search.includes(q);
+      card.hidden = !match;
+      if (match) visible++;
+    });
+
+    /* update year groups: hide groups with no visible cards, update counts */
+    listView.querySelectorAll('.events-year-group').forEach(group => {
+      const groupCards = group.querySelectorAll('.event-card');
+      const groupVisible = Array.from(groupCards).filter(c => !c.hidden).length;
+      group.hidden = groupVisible === 0;
+      const countBadge = group.querySelector('.events-year-group__count');
+      if (countBadge) {
+        countBadge.textContent = groupVisible + ' événement' + (groupVisible > 1 ? 's' : '');
+      }
+    });
+
+    empty.hidden = visible > 0 || !q;
+    countEl.textContent = q ? visible + ' / ' + total : '';
+  }
+
+  input.addEventListener('input', update);
+})();
+</script>
 {{ end }}
