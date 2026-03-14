@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cassandra on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/cassandra/</link><description>Recent content in Cassandra on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 02 Oct 2014 18:00:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/cassandra/index.xml" rel="self" type="application/rss+xml"/><item><title>Cassandra</title><link>https://www.gcuisinier.net/yajug-site/events/2014-10-cassandra/</link><pubDate>Thu, 02 Oct 2014 18:00:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2014-10-cassandra/</guid><description>&lt;h2 id="cassandra">Cassandra&lt;/h2>
+&lt;p>Introduction à &lt;strong>Apache Cassandra&lt;/strong>, la base de données NoSQL columnar utilisée par des géants comme Netflix, Sony Entertainment et Apple.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Architecture et modèle de données de Cassandra&lt;/li>
+&lt;li>Bonnes pratiques de modélisation de données&lt;/li>
+&lt;li>Transition du SQL vers le NoSQL&lt;/li>
+&lt;li>Pilotes Java et intégration&lt;/li>
+&lt;/ul></description></item></channel></rss>

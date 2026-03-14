@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Au-delà des brokers : un tour de l&#39;environnement Kafka | YAJUG — Yet Another Java User Group Luxembourg</title>
+<meta name="description" content="L&#39;écosystème open source autour d&#39;Apache Kafka : Kafka Streams, KSQL, Kafka Connect, REST Proxy, Schema Registry et MirrorMaker.">
+
+<meta property="og:title" content="Au-delà des brokers : un tour de l&#39;environnement Kafka | YAJUG — Yet Another Java User Group Luxembourg">
+<meta property="og:description" content="L&#39;écosystème open source autour d&#39;Apache Kafka : Kafka Streams, KSQL, Kafka Connect, REST Proxy, Schema Registry et MirrorMaker.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:1313/program/au-del%C3%A0-des-brokers-un-tour-de-lenvironnement-kafka/">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@yajug_lu">
+<meta name="twitter:title" content="Au-delà des brokers : un tour de l&#39;environnement Kafka">
+<meta name="twitter:description" content="L&#39;écosystème open source autour d&#39;Apache Kafka : Kafka Streams, KSQL, Kafka Connect, REST Proxy, Schema Registry et MirrorMaker.">
+
+
+
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+</head>
+<body class="page-program">
+  <header class="site-header" id="site-header">
+    <div class="container">
+  <div class="header__inner">
+    <a href="/" class="header__logo-link" aria-label="YAJUG — Yet Another Java User Group Luxembourg">
+      <img src="https://yajug.lu/wp-content/uploads/2015/08/Yajug_2013.png" alt="YAJUG — Yet Another Java User Group Luxembourg" class="header__logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="header__logo-text" style="display:none">YAJUG</span>
+    </a>
+
+    <nav class="header__nav" id="main-nav" aria-label="Main navigation">
+      
+      
+      
+      
+      <a href="/"
+         class="nav__link"
+         >
+        Home
+      </a>
+      
+      
+      
+      
+      <a href="/events/"
+         class="nav__link"
+         >
+        Evènements
+      </a>
+      
+      
+      
+      
+      <a href="/speakers/"
+         class="nav__link"
+         >
+        Conférenciers
+      </a>
+      
+      
+      
+      
+      <a href="/team/"
+         class="nav__link"
+         >
+        Organisateurs
+      </a>
+      
+      
+      
+      
+      <a href="/contact/"
+         class="nav__link"
+         >
+        Informations
+      </a>
+      
+      
+      
+      <span class="nav__divider" aria-hidden="true"></span>
+      <a href="/voxxeddays/"
+         class="nav__link"
+         >
+        Voxxed Days Luxembourg
+      </a>
+      
+    </nav>
+
+    <button class="header__burger" id="burger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+
+  <nav class="header__mobile-nav" id="mobile-nav" aria-hidden="true" aria-label="Mobile navigation">
+    
+    
+    <a href="/"
+       class="mobile-nav__link"
+       >
+      Home
+    </a>
+    
+    
+    <a href="/events/"
+       class="mobile-nav__link"
+       >
+      Evènements
+    </a>
+    
+    
+    <a href="/speakers/"
+       class="mobile-nav__link"
+       >
+      Conférenciers
+    </a>
+    
+    
+    <a href="/team/"
+       class="mobile-nav__link"
+       >
+      Organisateurs
+    </a>
+    
+    
+    <a href="/contact/"
+       class="mobile-nav__link"
+       >
+      Informations
+    </a>
+    
+    
+    <a href="/voxxeddays/"
+       class="mobile-nav__link"
+       >
+      Voxxed Days Luxembourg
+    </a>
+    
+  </nav>
+</div>
+
+  </header>
+  <main id="main-content">
+    
+<article class="single-page">
+  <div class="container container--narrow">
+    <header class="single-page__header">
+      <h1>Au-delà des brokers : un tour de l&#39;environnement Kafka</h1>
+      
+      <time datetime="2018-10-02" class="single-page__date">October 2, 2018</time>
+      
+    </header>
+    <div class="single-page__content prose">
+      <h2 id="au-delà-des-brokers--un-tour-de-lenvironnement-kafka">Au-delà des brokers : un tour de l&rsquo;environnement Kafka</h2>
+<p>Apache Kafka est bien plus qu&rsquo;un simple système de messaging. Florent Ramière explore l&rsquo;écosystème gravitant autour des brokers Kafka :</p>
+<ul>
+<li><strong>Kafka Streams</strong> — traitement de flux en temps réel</li>
+<li><strong>KSQL</strong> — requêtes SQL sur des flux de données</li>
+<li><strong>Kafka Connect</strong> — connecteurs d&rsquo;intégration</li>
+<li><strong>REST Proxy</strong> — accès HTTP à Kafka</li>
+<li><strong>Schema Registry</strong> — gestion des schémas Avro/JSON</li>
+<li><strong>MirrorMaker</strong> — réplication inter-clusters</li>
+</ul>
+
+    </div>
+  </div>
+</article>
+
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <a href="/" class="footer__logo-link" aria-label="YAJUG — Yet Another Java User Group Luxembourg">
+        <span class="footer__logo-text">YAJUG</span>
+      </a>
+      <p class="footer__tagline">The Java Community in Luxembourg</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer navigation">
+      
+      
+      <a href="/"
+         class="footer__link"
+         >
+        Home
+      </a>
+      
+      
+      <a href="/events/"
+         class="footer__link"
+         >
+        Evènements
+      </a>
+      
+      
+      <a href="/speakers/"
+         class="footer__link"
+         >
+        Conférenciers
+      </a>
+      
+      
+      <a href="/team/"
+         class="footer__link"
+         >
+        Organisateurs
+      </a>
+      
+      
+      <a href="/contact/"
+         class="footer__link"
+         >
+        Informations
+      </a>
+      
+      
+      <a href="/voxxeddays/"
+         class="footer__link"
+         >
+        Voxxed Days Luxembourg
+      </a>
+      
+    </nav>
+
+    <div class="footer__social">
+      
+      <a href="https://twitter.com/yajug_lu" target="_blank" rel="noopener" aria-label="Twitter" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      </a>
+      
+      
+      <a href="https://linkedin.com/company/yajug" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      
+      
+      <a href="https://github.com/yajug" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      
+      
+      <a href="https://www.meetup.com/yajug/" target="_blank" rel="noopener" aria-label="Meetup" class="social-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.24 12.58a3.74 3.74 0 00-.07-.68c-.04-.2-.09-.4-.16-.59-.06-.17-.14-.34-.23-.5l-.1-.17a3.75 3.75 0 00-1.06-1.1l-.16-.1a3.78 3.78 0 00-.56-.28 3.67 3.67 0 00-.6-.17 3.75 3.75 0 00-.7-.06H6.77a3.72 3.72 0 00-.7.06 3.67 3.67 0 00-.6.17 3.78 3.78 0 00-.56.28l-.16.1a3.75 3.75 0 00-1.06 1.1l-.1.17c-.09.16-.17.33-.23.5-.07.19-.12.39-.16.59-.04.22-.06.44-.06.68s.02.46.06.68c.04.2.09.4.16.59.06.17.14.34.23.5l.1.17a3.75 3.75 0 001.06 1.1l.16.1c.17.11.36.2.56.28.19.07.39.13.6.17.22.04.45.06.7.06h9.46c.24 0 .47-.02.7-.06.21-.04.41-.1.6-.17.2-.08.39-.17.56-.28l.16-.1a3.75 3.75 0 001.06-1.1l.1-.17c.09-.16.17-.33.23-.5.07-.19.12-.39.16-.59.04-.22.06-.44.06-.68s-.02-.46-.06-.68z"/></svg>
+      </a>
+      
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 YAJUG — Java User Group Luxembourg. All rights reserved.</p>
+  </div>
+</div>
+
+  </footer>
+  
+    <script src="/js/main.js" defer></script>
+
+</body>
+</html>

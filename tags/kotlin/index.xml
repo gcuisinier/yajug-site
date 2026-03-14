@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kotlin on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/kotlin/</link><description>Recent content in Kotlin on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 13 Apr 2017 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/kotlin/index.xml" rel="self" type="application/rss+xml"/><item><title>Kotlin</title><link>https://www.gcuisinier.net/yajug-site/events/2017-04-kotlin/</link><pubDate>Thu, 13 Apr 2017 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2017-04-kotlin/</guid><description>&lt;h2 id="kotlin">Kotlin&lt;/h2>
+&lt;p>Kotlin est un langage basé sur la JVM développé par &lt;strong>JetBrains&lt;/strong> depuis 2010, inspiré de Java, Scala, C# et Groovy.&lt;/p>
+&lt;p>La présentation couvre :&lt;/p>
+&lt;ul>
+&lt;li>Syntaxe du langage et ses avantages&lt;/li>
+&lt;li>Interopérabilité avec Java&lt;/li>
+&lt;li>Intégration dans des stacks Spring Boot&lt;/li>
+&lt;li>Null safety, data classes, extensions&lt;/li>
+&lt;li>Coroutines&lt;/li>
+&lt;/ul>
+&lt;p>Depuis mai 2017, Kotlin est officiellement supporté pour le développement Android.&lt;/p></description></item></channel></rss>

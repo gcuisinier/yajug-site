@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Program on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/events/</link><description>Recent content in Program on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 14 May 2025 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/events/index.xml" rel="self" type="application/rss+xml"/><item><title>Langchain4j for dummies</title><link>https://www.gcuisinier.net/yajug-site/events/2026-05-langchain4j/</link><pubDate>Wed, 14 May 2025 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2026-05-langchain4j/</guid><description>&lt;h2 id="programme">Programme&lt;/h2>
+&lt;p>Jean-Michel Doudoux nous présente un tour d&amp;rsquo;horizon complet des nouveautés de &lt;strong>Java 21 LTS&lt;/strong>.&lt;/p>
+&lt;h3 id="project-amber">Project Amber&lt;/h3>
+&lt;ul>
+&lt;li>Record Patterns&lt;/li>
+&lt;li>Pattern Matching for switch&lt;/li>
+&lt;li>String Templates&lt;/li>
+&lt;li>Unnamed Patterns and Variables&lt;/li>
+&lt;li>Unnamed Classes&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-loom">Project Loom&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Virtual Threads&lt;/strong> — la révolution de la concurrence Java&lt;/li>
+&lt;li>Structured Concurrency&lt;/li>
+&lt;li>Scoped Values&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-panama">Project Panama&lt;/h3>
+&lt;ul>
+&lt;li>Foreign Function &amp;amp; Memory API&lt;/li>
+&lt;li>Vector API&lt;/li>
+&lt;/ul>
+&lt;h3 id="core-api--hotspot-jvm">Core API &amp;amp; HotSpot JVM&lt;/h3>
+&lt;p>Améliorations des API centrales et du moteur d&amp;rsquo;exécution HotSpot.&lt;/p></description></item><item><title>Les nouveautés de Java 21</title><link>https://www.gcuisinier.net/yajug-site/events/2024-05-les-nouveautes-de-java-21/</link><pubDate>Tue, 14 May 2024 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2024-05-les-nouveautes-de-java-21/</guid><description>&lt;h2 id="programme">Programme&lt;/h2>
+&lt;p>Jean-Michel Doudoux nous présente un tour d&amp;rsquo;horizon complet des nouveautés de &lt;strong>Java 21 LTS&lt;/strong>.&lt;/p>
+&lt;h3 id="project-amber">Project Amber&lt;/h3>
+&lt;ul>
+&lt;li>Record Patterns&lt;/li>
+&lt;li>Pattern Matching for switch&lt;/li>
+&lt;li>String Templates&lt;/li>
+&lt;li>Unnamed Patterns and Variables&lt;/li>
+&lt;li>Unnamed Classes&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-loom">Project Loom&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Virtual Threads&lt;/strong> — la révolution de la concurrence Java&lt;/li>
+&lt;li>Structured Concurrency&lt;/li>
+&lt;li>Scoped Values&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-panama">Project Panama&lt;/h3>
+&lt;ul>
+&lt;li>Foreign Function &amp;amp; Memory API&lt;/li>
+&lt;li>Vector API&lt;/li>
+&lt;/ul>
+&lt;h3 id="core-api--hotspot-jvm">Core API &amp;amp; HotSpot JVM&lt;/h3>
+&lt;p>Améliorations des API centrales et du moteur d&amp;rsquo;exécution HotSpot.&lt;/p></description></item><item><title>Fin d'année 2019</title><link>https://www.gcuisinier.net/yajug-site/events/2019-12-fin-annee-2019/</link><pubDate>Thu, 19 Dec 2019 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-12-fin-annee-2019/</guid><description>&lt;p>La soirée de fin d&amp;rsquo;année 2019 a réuni la communauté YAJUG pour célébrer une nouvelle saison.&lt;/p>
+&lt;p>Au programme :&lt;/p>
+&lt;ul>
+&lt;li>Bilan de l&amp;rsquo;association pour l&amp;rsquo;année 2019&lt;/li>
+&lt;li>Assemblée générale&lt;/li>
+&lt;li>Recrutement de bénévoles pour la planification 2020&lt;/li>
+&lt;li>Networking et festivités de fin d&amp;rsquo;année&lt;/li>
+&lt;/ul></description></item><item><title>The Long Road</title><link>https://www.gcuisinier.net/yajug-site/events/2019-09-the-long-road/</link><pubDate>Thu, 19 Sep 2019 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-09-the-long-road/</guid><description>&lt;h2 id="the-long-road">The Long Road&lt;/h2>
+&lt;p>Sandro Mancuso explore la navigation de carrière dans le secteur technologique.&lt;/p>
+&lt;p>La présentation aborde différents choix de carrière : comment sélectionner de bonnes entreprises pour lesquelles travailler, ce que l&amp;rsquo;on peut apprendre pendant les entretiens, et comment déterminer le bon moment pour changer de poste ou d&amp;rsquo;entreprise.&lt;/p>
+&lt;p>Une session incontournable pour tout développeur souhaitant prendre le contrôle de son évolution professionnelle.&lt;/p></description></item><item><title>Security By Design dans vos projets</title><link>https://www.gcuisinier.net/yajug-site/events/2019-05-security-by-design/</link><pubDate>Wed, 08 May 2019 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-05-security-by-design/</guid><description>&lt;h2 id="security-by-design-dans-vos-projets">Security By Design dans vos projets&lt;/h2>
+&lt;p>Les spécifications contiennent souvent des exigences de sécurité vagues. Dominique Righetto propose une approche construite autour des &lt;strong>cas d&amp;rsquo;abus&lt;/strong> pour identifier les niveaux de sécurité attendus.&lt;/p>
+&lt;p>Cette méthode fournit aux équipes de développement les informations nécessaires pour intégrer la sécurité dans la conception et l&amp;rsquo;implémentation du système, dès les premières phases du projet.&lt;/p>
+&lt;h3 id="points-abordés">Points abordés&lt;/h3>
+&lt;ul>
+&lt;li>Méthodologie des cas d&amp;rsquo;abus (abuse cases)&lt;/li>
+&lt;li>Conformité OWASP&lt;/li>
+&lt;li>Intégration de la sécurité dans le cycle de développement&lt;/li>
+&lt;li>Exemples pratiques&lt;/li>
+&lt;/ul></description></item><item><title>The Art of PostgreSQL</title><link>https://www.gcuisinier.net/yajug-site/events/2019-04-the-art-of-postgresql/</link><pubDate>Thu, 11 Apr 2019 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-04-the-art-of-postgresql/</guid><description>&lt;h2 id="the-art-of-postgresql">The Art of PostgreSQL&lt;/h2>
+&lt;p>PostgreSQL est présenté comme la base de données relationnelle open source la plus avancée du marché.&lt;/p>
+&lt;p>Dimitri Fontaine explore ses capacités pour résoudre des problèmes courants des développeurs et supporter les activités quotidiennes, y compris les tests unitaires.&lt;/p>
+&lt;p>Une présentation qui change la perspective sur PostgreSQL : non plus seulement un outil de stockage, mais un véritable moteur de traitement de données.&lt;/p></description></item><item><title>Construisez votre maison (dé)connectée avec openHAB</title><link>https://www.gcuisinier.net/yajug-site/events/2019-02-openhab/</link><pubDate>Thu, 28 Feb 2019 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-02-openhab/</guid><description>&lt;h2 id="construisez-votre-maison-déconnectée-avec-openhab">Construisez votre maison (dé)connectée avec openHAB&lt;/h2>
+&lt;p>openHAB est une plateforme d&amp;rsquo;intégration pour solutions domotiques qui permet d&amp;rsquo;aller bien au-delà de ce que chaque système individuel propose.&lt;/p>
+&lt;p>La philosophie : &lt;strong>votre données restent vos données&lt;/strong>. La maison fonctionne localement, sans dépendance au cloud — c&amp;rsquo;est l&amp;rsquo;&lt;strong>Intranet of Things&lt;/strong>.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Architecture d&amp;rsquo;openHAB&lt;/li>
+&lt;li>Intégration des appareils IoT&lt;/li>
+&lt;li>Démonstrations live&lt;/li>
+&lt;li>Exemples pratiques de domotique&lt;/li>
+&lt;/ul>
+&lt;p>Yannick Schaus, mainteneur du projet et architecte basé au Luxembourg, présente ses retours d&amp;rsquo;expérience concrets.&lt;/p></description></item><item><title>Épisode Live des Cast Codeurs</title><link>https://www.gcuisinier.net/yajug-site/events/2018-12-episode-live-cast-codeurs/</link><pubDate>Tue, 18 Dec 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-12-episode-live-cast-codeurs/</guid><description>&lt;h2 id="épisode-live-des-cast-codeurs">Épisode Live des Cast Codeurs&lt;/h2>
+&lt;p>Venez assister à cet épisode live et gagner des cadeaux à l&amp;rsquo;occasion de &lt;strong>l&amp;rsquo;assemblée générale annuelle du YAJUG&lt;/strong> !&lt;/p>
+&lt;p>Les Cast Codeurs est l&amp;rsquo;un des podcasts Java francophones les plus populaires, animé par Emmanuel Bernard, Vincent Massol, Arnaud Héritier et Audrey Neveu.&lt;/p>
+&lt;p>Une soirée unique mêlant contenu technique de qualité et festivités de fin d&amp;rsquo;année.&lt;/p></description></item><item><title>Apache Solr : sans tambour ni trompette</title><link>https://www.gcuisinier.net/yajug-site/events/2018-11-apache-solr/</link><pubDate>Tue, 06 Nov 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-11-apache-solr/</guid><description>&lt;h2 id="apache-solr--sans-tambour-ni-trompette">Apache Solr : sans tambour ni trompette&lt;/h2>
+&lt;p>La présentation couvre quatre axes principaux pour maîtriser Apache Solr :&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Architecture&lt;/strong> — Comment fonctionne Solr sous le capot&lt;/li>
+&lt;li>&lt;strong>Indexation&lt;/strong> — Stratégies d&amp;rsquo;indexation efficaces&lt;/li>
+&lt;li>&lt;strong>Configuration de la recherche&lt;/strong> — Scoring, facettes, suggestions&lt;/li>
+&lt;li>&lt;strong>Configuration du cluster&lt;/strong> — SolrCloud, sharding, réplication&lt;/li>
+&lt;/ol>
+&lt;p>L&amp;rsquo;objectif : donner aux participants les clés pour implémenter des capacités de recherche full-text dans leurs projets.&lt;/p></description></item><item><title>Shaping the Future of Java, Faster</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-shaping-future-java/</link><pubDate>Wed, 24 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-shaping-future-java/</guid><description>&lt;h2 id="shaping-the-future-of-java-faster">Shaping the Future of Java, Faster&lt;/h2>
+&lt;p>La plateforme Java SE et le JDK ont adopté un &lt;strong>cycle de releases rapide de 6 mois&lt;/strong>, avec Java 11 en septembre 2018 et Java 12 prévu pour mars 2019.&lt;/p>
+&lt;p>Cette présentation examine les motivations de ce changement et discute de ses implications pour les développeurs, les entreprises et l&amp;rsquo;écosystème Java en général.&lt;/p>
+&lt;h3 id="sujets-abordés">Sujets abordés&lt;/h3>
+&lt;ul>
+&lt;li>Motivation du nouveau cycle de release&lt;/li>
+&lt;li>Java 11 LTS : ce qui change&lt;/li>
+&lt;li>Impact sur les versions Long-Term Support (LTS)&lt;/li>
+&lt;li>Ce que cela signifie pour les projets en production&lt;/li>
+&lt;/ul></description></item><item><title>Et si on se mettait à l'API ? API Management, OpenAPI</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-api-management/</link><pubDate>Tue, 16 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-api-management/</guid><description>&lt;h2 id="et-si-on-se-mettait-à-lapi-">Et si on se mettait à l&amp;rsquo;API ?&lt;/h2>
+&lt;p>En 2018, les services cloud exposent leurs données via des APIs. Cette présentation explore les questions clés :&lt;/p>
+&lt;ul>
+&lt;li>Comment définir ses APIs avec &lt;strong>OpenAPI&lt;/strong> (Swagger) ?&lt;/li>
+&lt;li>Quelles bonnes pratiques pour la documentation ?&lt;/li>
+&lt;li>Comment sécuriser l&amp;rsquo;accès ?&lt;/li>
+&lt;li>Quelles stratégies de monétisation ?&lt;/li>
+&lt;li>Quel rôle pour un API Gateway / API Manager ?&lt;/li>
+&lt;/ul></description></item><item><title>Au-delà des brokers : un tour de l'environnement Kafka</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-kafka-ecosystem/</link><pubDate>Tue, 02 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-kafka-ecosystem/</guid><description>&lt;h2 id="au-delà-des-brokers--un-tour-de-lenvironnement-kafka">Au-delà des brokers : un tour de l&amp;rsquo;environnement Kafka&lt;/h2>
+&lt;p>Apache Kafka est bien plus qu&amp;rsquo;un simple système de messaging. Florent Ramière explore l&amp;rsquo;écosystème gravitant autour des brokers Kafka :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Kafka Streams&lt;/strong> — traitement de flux en temps réel&lt;/li>
+&lt;li>&lt;strong>KSQL&lt;/strong> — requêtes SQL sur des flux de données&lt;/li>
+&lt;li>&lt;strong>Kafka Connect&lt;/strong> — connecteurs d&amp;rsquo;intégration&lt;/li>
+&lt;li>&lt;strong>REST Proxy&lt;/strong> — accès HTTP à Kafka&lt;/li>
+&lt;li>&lt;strong>Schema Registry&lt;/strong> — gestion des schémas Avro/JSON&lt;/li>
+&lt;li>&lt;strong>MirrorMaker&lt;/strong> — réplication inter-clusters&lt;/li>
+&lt;/ul></description></item><item><title>Déployer facilement vos services de machine learning en Java avec GraalVM</title><link>https://www.gcuisinier.net/yajug-site/events/2018-05-machine-learning-graalvm/</link><pubDate>Tue, 22 May 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-05-machine-learning-graalvm/</guid><description>&lt;h2 id="déployer-facilement-vos-services-de-machine-learning-en-java-avec-graalvm">Déployer facilement vos services de machine learning en Java avec GraalVM&lt;/h2>
+&lt;p>Philippe Gottfrois et Pierre Paci explorent comment déployer des solutions de machine learning au sein d&amp;rsquo;infrastructures Java existantes.&lt;/p>
+&lt;p>Ils démontrent comment &lt;strong>GraalVM&lt;/strong>, le projet open source d&amp;rsquo;Oracle, permet d&amp;rsquo;intégrer des segments de code Python dans des applications Spring, ouvrant la voie à une synergie entre l&amp;rsquo;écosystème Python ML et le monde Java enterprise.&lt;/p></description></item><item><title>Stratégie mobile et capacités des navigateurs modernes</title><link>https://www.gcuisinier.net/yajug-site/events/2018-04-strategie-mobile/</link><pubDate>Wed, 18 Apr 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-04-strategie-mobile/</guid><description>&lt;h2 id="stratégie-mobile-et-capacités-des-navigateurs-modernes">Stratégie mobile et capacités des navigateurs modernes&lt;/h2>
+&lt;p>Stéphanie Walter examine les différentes approches pour délivrer du contenu mobile :&lt;/p>
+&lt;ul>
+&lt;li>Sites mobiles dédiés&lt;/li>
+&lt;li>Responsive design et mobile-first&lt;/li>
+&lt;li>&lt;strong>Progressive Web Apps (PWA)&lt;/strong>&lt;/li>
+&lt;li>Applications hybrides&lt;/li>
+&lt;/ul>
+&lt;p>La présentation explore comment les capacités des navigateurs ont considérablement évolué depuis l&amp;rsquo;ère de l&amp;rsquo;iPhone 3, et comment en tirer parti pour chaque stratégie.&lt;/p></description></item><item><title>Applications réactives avec Eclipse Vert.x</title><link>https://www.gcuisinier.net/yajug-site/events/2018-03-eclipse-vertx/</link><pubDate>Tue, 06 Mar 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-03-eclipse-vertx/</guid><description>&lt;h2 id="applications-réactives-avec-eclipse-vertx">Applications réactives avec Eclipse Vert.x&lt;/h2>
+&lt;p>Julien Viet, lead du projet Vert.x, présente ce toolkit pour écrire des &lt;strong>applications réactives et polyglottes&lt;/strong> sur la JVM.&lt;/p>
+&lt;p>La session commence par une vue d&amp;rsquo;ensemble de Vert.x et des paradigmes de programmation réactive, puis introduit la programmation réactive avec &lt;strong>RxJava 2&lt;/strong> et Vert.x.&lt;/p>
+&lt;h3 id="points-abordés">Points abordés&lt;/h3>
+&lt;ul>
+&lt;li>Architecture event-loop de Vert.x&lt;/li>
+&lt;li>Verticles et event bus&lt;/li>
+&lt;li>Programmation réactive avec RxJava 2&lt;/li>
+&lt;li>Cas d&amp;rsquo;usage : APIs REST, microservices, streaming&lt;/li>
+&lt;/ul></description></item><item><title>Tests de charge avec Gatling</title><link>https://www.gcuisinier.net/yajug-site/events/2018-02-gatling/</link><pubDate>Tue, 13 Feb 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-02-gatling/</guid><description>&lt;h2 id="tests-de-charge-avec-gatling">Tests de charge avec Gatling&lt;/h2>
+&lt;p>ou &lt;em>Comment arrêter de croiser les doigts lorsqu&amp;rsquo;on passe en prod&lt;/em>&lt;/p>
+&lt;p>Stéphane Landelle aborde la méthodologie des tests de charge, puis se concentre sur &lt;strong>Gatling&lt;/strong>, l&amp;rsquo;outil open source de référence.&lt;/p>
+&lt;p>Gatling génère des utilisateurs virtuels naviguant sur des sites grâce à une architecture moderne basée sur :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Non-blocking I/O&lt;/strong> (Netty)&lt;/li>
+&lt;li>&lt;strong>Modèle actor&lt;/strong> (Akka)&lt;/li>
+&lt;li>DSL Scala expressif&lt;/li>
+&lt;/ul>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Concepts des tests de charge&lt;/li>
+&lt;li>Architecture de Gatling&lt;/li>
+&lt;li>Écriture de scénarios&lt;/li>
+&lt;li>Analyse des rapports&lt;/li>
+&lt;li>Intégration CI/CD&lt;/li>
+&lt;/ul></description></item><item><title>Microservices avec Spring Cloud</title><link>https://www.gcuisinier.net/yajug-site/events/2018-01-spring-cloud/</link><pubDate>Thu, 18 Jan 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-01-spring-cloud/</guid><description>&lt;h2 id="microservices-avec-spring-cloud">Microservices avec Spring Cloud&lt;/h2>
+&lt;p>Spring Cloud délivre l&amp;rsquo;infrastructure technique nécessaire à l&amp;rsquo;implémentation d&amp;rsquo;une architecture microservices.&lt;/p>
+&lt;p>Combiné avec Spring Boot, il permet de composer rapidement des applications à partir de services individuels et de les déployer en production avec scalabilité et monitoring en temps réel.&lt;/p>
+&lt;h3 id="composants-abordés">Composants abordés&lt;/h3>
+&lt;ul>
+&lt;li>Spring Cloud Config — configuration centralisée&lt;/li>
+&lt;li>Eureka — découverte de services&lt;/li>
+&lt;li>Ribbon — load balancing côté client&lt;/li>
+&lt;li>Hystrix — circuit breaker&lt;/li>
+&lt;li>Zuul — API Gateway&lt;/li>
+&lt;li>Sleuth + Zipkin — distributed tracing&lt;/li>
+&lt;/ul></description></item><item><title>And Java becomes more functional with Vavr.io!</title><link>https://www.gcuisinier.net/yajug-site/events/2017-12-vavr/</link><pubDate>Wed, 13 Dec 2017 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2017-12-vavr/</guid><description>&lt;h2 id="and-java-becomes-more-functional-with-vavrio">And Java becomes more functional with Vavr.io!&lt;/h2>
+&lt;p>Guillaume Lours explore &lt;strong>Vavr&lt;/strong>, une bibliothèque entièrement dédiée au paradigme de programmation fonctionnelle pour Java.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Collections immuables&lt;/li>
+&lt;li>Types valeur : &lt;code>Option&lt;/code>, &lt;code>Try&lt;/code>, &lt;code>Either&lt;/code>&lt;/li>
+&lt;li>Composition fonctionnelle&lt;/li>
+&lt;li>Lifting et memoization&lt;/li>
+&lt;li>Currying&lt;/li>
+&lt;li>Pattern matching&lt;/li>
+&lt;li>Property-based testing&lt;/li>
+&lt;/ul></description></item><item><title>Kotlin</title><link>https://www.gcuisinier.net/yajug-site/events/2017-04-kotlin/</link><pubDate>Thu, 13 Apr 2017 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2017-04-kotlin/</guid><description>&lt;h2 id="kotlin">Kotlin&lt;/h2>
+&lt;p>Kotlin est un langage basé sur la JVM développé par &lt;strong>JetBrains&lt;/strong> depuis 2010, inspiré de Java, Scala, C# et Groovy.&lt;/p>
+&lt;p>La présentation couvre :&lt;/p>
+&lt;ul>
+&lt;li>Syntaxe du langage et ses avantages&lt;/li>
+&lt;li>Interopérabilité avec Java&lt;/li>
+&lt;li>Intégration dans des stacks Spring Boot&lt;/li>
+&lt;li>Null safety, data classes, extensions&lt;/li>
+&lt;li>Coroutines&lt;/li>
+&lt;/ul>
+&lt;p>Depuis mai 2017, Kotlin est officiellement supporté pour le développement Android.&lt;/p></description></item><item><title>Open Source Identity Management with Keycloak</title><link>https://www.gcuisinier.net/yajug-site/events/2016-10-keycloak/</link><pubDate>Tue, 25 Oct 2016 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2016-10-keycloak/</guid><description>&lt;h2 id="open-source-identity-management-with-keycloak">Open Source Identity Management with Keycloak&lt;/h2>
+&lt;p>Thomas Darimont présente la gestion d&amp;rsquo;identité avec &lt;strong>Keycloak&lt;/strong>, la plateforme JBoss/Red Hat.&lt;/p>
+&lt;h3 id="sujets-abordés">Sujets abordés&lt;/h3>
+&lt;ul>
+&lt;li>Concepts fondamentaux de l&amp;rsquo;Identity Management&lt;/li>
+&lt;li>Standards d&amp;rsquo;authentification : OAuth 2.0 et OpenID Connect&lt;/li>
+&lt;li>Fonctionnalités de la plateforme Keycloak&lt;/li>
+&lt;li>Exemples d&amp;rsquo;intégration :
+&lt;ul>
+&lt;li>Java EE&lt;/li>
+&lt;li>Spring Boot&lt;/li>
+&lt;li>Applications mobiles&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Administration et configuration&lt;/li>
+&lt;/ul></description></item><item><title>De Zéro à Héros avec Spring Boot</title><link>https://www.gcuisinier.net/yajug-site/events/2016-03-spring-boot/</link><pubDate>Tue, 15 Mar 2016 18:00:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2016-03-spring-boot/</guid><description>&lt;h2 id="de-zéro-à-héros-avec-spring-boot">De Zéro à Héros avec Spring Boot&lt;/h2>
+&lt;p>Stéphane Nicoll, core committer Spring Boot, présente comment Spring Boot combine la flexibilité de Spring avec des valeurs par défaut sensées.&lt;/p>
+&lt;h3 id="cas-dusage-couverts">Cas d&amp;rsquo;usage couverts&lt;/h3>
+&lt;ul>
+&lt;li>Services REST&lt;/li>
+&lt;li>Plateformes web&lt;/li>
+&lt;li>Applications batch&lt;/li>
+&lt;/ul>
+&lt;h3 id="thèmes-principaux">Thèmes principaux&lt;/h3>
+&lt;ul>
+&lt;li>Auto-configuration et starters&lt;/li>
+&lt;li>Développement microservices&lt;/li>
+&lt;li>Pratiques DevOps avec Spring Boot&lt;/li>
+&lt;li>Actuator et observabilité&lt;/li>
+&lt;/ul></description></item><item><title>Des containers de la cale au pont</title><link>https://www.gcuisinier.net/yajug-site/events/2015-10-docker/</link><pubDate>Tue, 20 Oct 2015 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2015-10-docker/</guid><description>&lt;h2 id="des-containers-de-la-cale-au-pont">Des containers de la cale au pont&lt;/h2>
+&lt;p>Nicolas Muller présente &lt;strong>Docker&lt;/strong> et son écosystème pour les développeurs Java.&lt;/p>
+&lt;p>La session de 90 minutes inclut des démonstrations live orientées vers les cas d&amp;rsquo;usage du développement quotidien.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Docker : concepts fondamentaux&lt;/li>
+&lt;li>Docker Compose — orchestration locale&lt;/li>
+&lt;li>Docker Machine&lt;/li>
+&lt;li>Docker Swarm&lt;/li>
+&lt;li>Patterns architecturaux pour applications Java&lt;/li>
+&lt;li>Comment tirer le meilleur parti de Docker dans votre travail Java quotidien&lt;/li>
+&lt;/ul></description></item><item><title>Cassandra</title><link>https://www.gcuisinier.net/yajug-site/events/2014-10-cassandra/</link><pubDate>Thu, 02 Oct 2014 18:00:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2014-10-cassandra/</guid><description>&lt;h2 id="cassandra">Cassandra&lt;/h2>
+&lt;p>Introduction à &lt;strong>Apache Cassandra&lt;/strong>, la base de données NoSQL columnar utilisée par des géants comme Netflix, Sony Entertainment et Apple.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Architecture et modèle de données de Cassandra&lt;/li>
+&lt;li>Bonnes pratiques de modélisation de données&lt;/li>
+&lt;li>Transition du SQL vers le NoSQL&lt;/li>
+&lt;li>Pilotes Java et intégration&lt;/li>
+&lt;/ul></description></item></channel></rss>

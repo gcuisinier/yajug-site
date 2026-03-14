@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vertx on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/vertx/</link><description>Recent content in Vertx on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 06 Mar 2018 17:45:00 +0100</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/vertx/index.xml" rel="self" type="application/rss+xml"/><item><title>Applications réactives avec Eclipse Vert.x</title><link>https://www.gcuisinier.net/yajug-site/events/2018-03-eclipse-vertx/</link><pubDate>Tue, 06 Mar 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-03-eclipse-vertx/</guid><description>&lt;h2 id="applications-réactives-avec-eclipse-vertx">Applications réactives avec Eclipse Vert.x&lt;/h2>
+&lt;p>Julien Viet, lead du projet Vert.x, présente ce toolkit pour écrire des &lt;strong>applications réactives et polyglottes&lt;/strong> sur la JVM.&lt;/p>
+&lt;p>La session commence par une vue d&amp;rsquo;ensemble de Vert.x et des paradigmes de programmation réactive, puis introduit la programmation réactive avec &lt;strong>RxJava 2&lt;/strong> et Vert.x.&lt;/p>
+&lt;h3 id="points-abordés">Points abordés&lt;/h3>
+&lt;ul>
+&lt;li>Architecture event-loop de Vert.x&lt;/li>
+&lt;li>Verticles et event bus&lt;/li>
+&lt;li>Programmation réactive avec RxJava 2&lt;/li>
+&lt;li>Cas d&amp;rsquo;usage : APIs REST, microservices, streaming&lt;/li>
+&lt;/ul></description></item></channel></rss>

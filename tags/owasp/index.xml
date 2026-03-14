@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Owasp on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/owasp/</link><description>Recent content in Owasp on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 08 May 2019 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/owasp/index.xml" rel="self" type="application/rss+xml"/><item><title>Security By Design dans vos projets</title><link>https://www.gcuisinier.net/yajug-site/events/2019-05-security-by-design/</link><pubDate>Wed, 08 May 2019 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-05-security-by-design/</guid><description>&lt;h2 id="security-by-design-dans-vos-projets">Security By Design dans vos projets&lt;/h2>
+&lt;p>Les spécifications contiennent souvent des exigences de sécurité vagues. Dominique Righetto propose une approche construite autour des &lt;strong>cas d&amp;rsquo;abus&lt;/strong> pour identifier les niveaux de sécurité attendus.&lt;/p>
+&lt;p>Cette méthode fournit aux équipes de développement les informations nécessaires pour intégrer la sécurité dans la conception et l&amp;rsquo;implémentation du système, dès les premières phases du projet.&lt;/p>
+&lt;h3 id="points-abordés">Points abordés&lt;/h3>
+&lt;ul>
+&lt;li>Méthodologie des cas d&amp;rsquo;abus (abuse cases)&lt;/li>
+&lt;li>Conformité OWASP&lt;/li>
+&lt;li>Intégration de la sécurité dans le cycle de développement&lt;/li>
+&lt;li>Exemples pratiques&lt;/li>
+&lt;/ul></description></item></channel></rss>

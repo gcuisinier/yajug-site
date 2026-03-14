@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart-Home on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/smart-home/</link><description>Recent content in Smart-Home on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 28 Feb 2019 17:45:00 +0100</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/smart-home/index.xml" rel="self" type="application/rss+xml"/><item><title>Construisez votre maison (dé)connectée avec openHAB</title><link>https://www.gcuisinier.net/yajug-site/events/2019-02-openhab/</link><pubDate>Thu, 28 Feb 2019 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-02-openhab/</guid><description>&lt;h2 id="construisez-votre-maison-déconnectée-avec-openhab">Construisez votre maison (dé)connectée avec openHAB&lt;/h2>
+&lt;p>openHAB est une plateforme d&amp;rsquo;intégration pour solutions domotiques qui permet d&amp;rsquo;aller bien au-delà de ce que chaque système individuel propose.&lt;/p>
+&lt;p>La philosophie : &lt;strong>votre données restent vos données&lt;/strong>. La maison fonctionne localement, sans dépendance au cloud — c&amp;rsquo;est l&amp;rsquo;&lt;strong>Intranet of Things&lt;/strong>.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Architecture d&amp;rsquo;openHAB&lt;/li>
+&lt;li>Intégration des appareils IoT&lt;/li>
+&lt;li>Démonstrations live&lt;/li>
+&lt;li>Exemples pratiques de domotique&lt;/li>
+&lt;/ul>
+&lt;p>Yannick Schaus, mainteneur du projet et architecte basé au Luxembourg, présente ses retours d&amp;rsquo;expérience concrets.&lt;/p></description></item></channel></rss>

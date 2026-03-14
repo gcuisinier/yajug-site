@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Virtual-Threads on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/virtual-threads/</link><description>Recent content in Virtual-Threads on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 14 May 2025 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/virtual-threads/index.xml" rel="self" type="application/rss+xml"/><item><title>Langchain4j for dummies</title><link>https://www.gcuisinier.net/yajug-site/events/2026-05-langchain4j/</link><pubDate>Wed, 14 May 2025 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2026-05-langchain4j/</guid><description>&lt;h2 id="programme">Programme&lt;/h2>
+&lt;p>Jean-Michel Doudoux nous présente un tour d&amp;rsquo;horizon complet des nouveautés de &lt;strong>Java 21 LTS&lt;/strong>.&lt;/p>
+&lt;h3 id="project-amber">Project Amber&lt;/h3>
+&lt;ul>
+&lt;li>Record Patterns&lt;/li>
+&lt;li>Pattern Matching for switch&lt;/li>
+&lt;li>String Templates&lt;/li>
+&lt;li>Unnamed Patterns and Variables&lt;/li>
+&lt;li>Unnamed Classes&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-loom">Project Loom&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Virtual Threads&lt;/strong> — la révolution de la concurrence Java&lt;/li>
+&lt;li>Structured Concurrency&lt;/li>
+&lt;li>Scoped Values&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-panama">Project Panama&lt;/h3>
+&lt;ul>
+&lt;li>Foreign Function &amp;amp; Memory API&lt;/li>
+&lt;li>Vector API&lt;/li>
+&lt;/ul>
+&lt;h3 id="core-api--hotspot-jvm">Core API &amp;amp; HotSpot JVM&lt;/h3>
+&lt;p>Améliorations des API centrales et du moteur d&amp;rsquo;exécution HotSpot.&lt;/p></description></item><item><title>Les nouveautés de Java 21</title><link>https://www.gcuisinier.net/yajug-site/events/2024-05-les-nouveautes-de-java-21/</link><pubDate>Tue, 14 May 2024 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2024-05-les-nouveautes-de-java-21/</guid><description>&lt;h2 id="programme">Programme&lt;/h2>
+&lt;p>Jean-Michel Doudoux nous présente un tour d&amp;rsquo;horizon complet des nouveautés de &lt;strong>Java 21 LTS&lt;/strong>.&lt;/p>
+&lt;h3 id="project-amber">Project Amber&lt;/h3>
+&lt;ul>
+&lt;li>Record Patterns&lt;/li>
+&lt;li>Pattern Matching for switch&lt;/li>
+&lt;li>String Templates&lt;/li>
+&lt;li>Unnamed Patterns and Variables&lt;/li>
+&lt;li>Unnamed Classes&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-loom">Project Loom&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Virtual Threads&lt;/strong> — la révolution de la concurrence Java&lt;/li>
+&lt;li>Structured Concurrency&lt;/li>
+&lt;li>Scoped Values&lt;/li>
+&lt;/ul>
+&lt;h3 id="project-panama">Project Panama&lt;/h3>
+&lt;ul>
+&lt;li>Foreign Function &amp;amp; Memory API&lt;/li>
+&lt;li>Vector API&lt;/li>
+&lt;/ul>
+&lt;h3 id="core-api--hotspot-jvm">Core API &amp;amp; HotSpot JVM&lt;/h3>
+&lt;p>Améliorations des API centrales et du moteur d&amp;rsquo;exécution HotSpot.&lt;/p></description></item></channel></rss>

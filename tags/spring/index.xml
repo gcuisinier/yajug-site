@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Spring on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/spring/</link><description>Recent content in Spring on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 22 May 2018 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/spring/index.xml" rel="self" type="application/rss+xml"/><item><title>Déployer facilement vos services de machine learning en Java avec GraalVM</title><link>https://www.gcuisinier.net/yajug-site/events/2018-05-machine-learning-graalvm/</link><pubDate>Tue, 22 May 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-05-machine-learning-graalvm/</guid><description>&lt;h2 id="déployer-facilement-vos-services-de-machine-learning-en-java-avec-graalvm">Déployer facilement vos services de machine learning en Java avec GraalVM&lt;/h2>
+&lt;p>Philippe Gottfrois et Pierre Paci explorent comment déployer des solutions de machine learning au sein d&amp;rsquo;infrastructures Java existantes.&lt;/p>
+&lt;p>Ils démontrent comment &lt;strong>GraalVM&lt;/strong>, le projet open source d&amp;rsquo;Oracle, permet d&amp;rsquo;intégrer des segments de code Python dans des applications Spring, ouvrant la voie à une synergie entre l&amp;rsquo;écosystème Python ML et le monde Java enterprise.&lt;/p></description></item><item><title>De Zéro à Héros avec Spring Boot</title><link>https://www.gcuisinier.net/yajug-site/events/2016-03-spring-boot/</link><pubDate>Tue, 15 Mar 2016 18:00:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2016-03-spring-boot/</guid><description>&lt;h2 id="de-zéro-à-héros-avec-spring-boot">De Zéro à Héros avec Spring Boot&lt;/h2>
+&lt;p>Stéphane Nicoll, core committer Spring Boot, présente comment Spring Boot combine la flexibilité de Spring avec des valeurs par défaut sensées.&lt;/p>
+&lt;h3 id="cas-dusage-couverts">Cas d&amp;rsquo;usage couverts&lt;/h3>
+&lt;ul>
+&lt;li>Services REST&lt;/li>
+&lt;li>Plateformes web&lt;/li>
+&lt;li>Applications batch&lt;/li>
+&lt;/ul>
+&lt;h3 id="thèmes-principaux">Thèmes principaux&lt;/h3>
+&lt;ul>
+&lt;li>Auto-configuration et starters&lt;/li>
+&lt;li>Développement microservices&lt;/li>
+&lt;li>Pratiques DevOps avec Spring Boot&lt;/li>
+&lt;li>Actuator et observabilité&lt;/li>
+&lt;/ul></description></item></channel></rss>

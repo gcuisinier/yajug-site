@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Cadence on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/release-cadence/</link><description>Recent content in Release-Cadence on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 24 Oct 2018 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/release-cadence/index.xml" rel="self" type="application/rss+xml"/><item><title>Shaping the Future of Java, Faster</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-shaping-future-java/</link><pubDate>Wed, 24 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-shaping-future-java/</guid><description>&lt;h2 id="shaping-the-future-of-java-faster">Shaping the Future of Java, Faster&lt;/h2>
+&lt;p>La plateforme Java SE et le JDK ont adopté un &lt;strong>cycle de releases rapide de 6 mois&lt;/strong>, avec Java 11 en septembre 2018 et Java 12 prévu pour mars 2019.&lt;/p>
+&lt;p>Cette présentation examine les motivations de ce changement et discute de ses implications pour les développeurs, les entreprises et l&amp;rsquo;écosystème Java en général.&lt;/p>
+&lt;h3 id="sujets-abordés">Sujets abordés&lt;/h3>
+&lt;ul>
+&lt;li>Motivation du nouveau cycle de release&lt;/li>
+&lt;li>Java 11 LTS : ce qui change&lt;/li>
+&lt;li>Impact sur les versions Long-Term Support (LTS)&lt;/li>
+&lt;li>Ce que cela signifie pour les projets en production&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Program on YAJUG — Yet Another Java User Group Luxembourg</title>
+    <link>http://localhost:1313/program/</link>
+    <description>Recent content in Program on YAJUG — Yet Another Java User Group Luxembourg</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 May 2025 17:45:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/program/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Langchain4j for dummies</title>
+      <link>http://localhost:1313/program/langchain4j-for-dummies/</link>
+      <pubDate>Wed, 14 May 2025 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/langchain4j-for-dummies/</guid>
+      <description>&lt;h2 id=&#34;programme&#34;&gt;Programme&lt;/h2&gt;&#xA;&lt;p&gt;Jean-Michel Doudoux nous présente un tour d&amp;rsquo;horizon complet des nouveautés de &lt;strong&gt;Java 21 LTS&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-amber&#34;&gt;Project Amber&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Record Patterns&lt;/li&gt;&#xA;&lt;li&gt;Pattern Matching for switch&lt;/li&gt;&#xA;&lt;li&gt;String Templates&lt;/li&gt;&#xA;&lt;li&gt;Unnamed Patterns and Variables&lt;/li&gt;&#xA;&lt;li&gt;Unnamed Classes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;project-loom&#34;&gt;Project Loom&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Virtual Threads&lt;/strong&gt; — la révolution de la concurrence Java&lt;/li&gt;&#xA;&lt;li&gt;Structured Concurrency&lt;/li&gt;&#xA;&lt;li&gt;Scoped Values&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;project-panama&#34;&gt;Project Panama&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Foreign Function &amp;amp; Memory API&lt;/li&gt;&#xA;&lt;li&gt;Vector API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;core-api--hotspot-jvm&#34;&gt;Core API &amp;amp; HotSpot JVM&lt;/h3&gt;&#xA;&lt;p&gt;Améliorations des API centrales et du moteur d&amp;rsquo;exécution HotSpot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les nouveautés de Java 21</title>
+      <link>http://localhost:1313/program/les-nouveaut%C3%A9s-de-java-21/</link>
+      <pubDate>Tue, 14 May 2024 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/les-nouveaut%C3%A9s-de-java-21/</guid>
+      <description>&lt;h2 id=&#34;programme&#34;&gt;Programme&lt;/h2&gt;&#xA;&lt;p&gt;Jean-Michel Doudoux nous présente un tour d&amp;rsquo;horizon complet des nouveautés de &lt;strong&gt;Java 21 LTS&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-amber&#34;&gt;Project Amber&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Record Patterns&lt;/li&gt;&#xA;&lt;li&gt;Pattern Matching for switch&lt;/li&gt;&#xA;&lt;li&gt;String Templates&lt;/li&gt;&#xA;&lt;li&gt;Unnamed Patterns and Variables&lt;/li&gt;&#xA;&lt;li&gt;Unnamed Classes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;project-loom&#34;&gt;Project Loom&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Virtual Threads&lt;/strong&gt; — la révolution de la concurrence Java&lt;/li&gt;&#xA;&lt;li&gt;Structured Concurrency&lt;/li&gt;&#xA;&lt;li&gt;Scoped Values&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;project-panama&#34;&gt;Project Panama&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Foreign Function &amp;amp; Memory API&lt;/li&gt;&#xA;&lt;li&gt;Vector API&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;core-api--hotspot-jvm&#34;&gt;Core API &amp;amp; HotSpot JVM&lt;/h3&gt;&#xA;&lt;p&gt;Améliorations des API centrales et du moteur d&amp;rsquo;exécution HotSpot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fin d&#39;année 2019</title>
+      <link>http://localhost:1313/program/fin-dann%C3%A9e-2019/</link>
+      <pubDate>Thu, 19 Dec 2019 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/fin-dann%C3%A9e-2019/</guid>
+      <description>&lt;p&gt;La soirée de fin d&amp;rsquo;année 2019 a réuni la communauté YAJUG pour célébrer une nouvelle saison.&lt;/p&gt;&#xA;&lt;p&gt;Au programme :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bilan de l&amp;rsquo;association pour l&amp;rsquo;année 2019&lt;/li&gt;&#xA;&lt;li&gt;Assemblée générale&lt;/li&gt;&#xA;&lt;li&gt;Recrutement de bénévoles pour la planification 2020&lt;/li&gt;&#xA;&lt;li&gt;Networking et festivités de fin d&amp;rsquo;année&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>The Long Road</title>
+      <link>http://localhost:1313/program/the-long-road/</link>
+      <pubDate>Thu, 19 Sep 2019 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/the-long-road/</guid>
+      <description>&lt;h2 id=&#34;the-long-road&#34;&gt;The Long Road&lt;/h2&gt;&#xA;&lt;p&gt;Sandro Mancuso explore la navigation de carrière dans le secteur technologique.&lt;/p&gt;&#xA;&lt;p&gt;La présentation aborde différents choix de carrière : comment sélectionner de bonnes entreprises pour lesquelles travailler, ce que l&amp;rsquo;on peut apprendre pendant les entretiens, et comment déterminer le bon moment pour changer de poste ou d&amp;rsquo;entreprise.&lt;/p&gt;&#xA;&lt;p&gt;Une session incontournable pour tout développeur souhaitant prendre le contrôle de son évolution professionnelle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Security By Design dans vos projets</title>
+      <link>http://localhost:1313/program/security-by-design-dans-vos-projets/</link>
+      <pubDate>Wed, 08 May 2019 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/security-by-design-dans-vos-projets/</guid>
+      <description>&lt;h2 id=&#34;security-by-design-dans-vos-projets&#34;&gt;Security By Design dans vos projets&lt;/h2&gt;&#xA;&lt;p&gt;Les spécifications contiennent souvent des exigences de sécurité vagues. Dominique Righetto propose une approche construite autour des &lt;strong&gt;cas d&amp;rsquo;abus&lt;/strong&gt; pour identifier les niveaux de sécurité attendus.&lt;/p&gt;&#xA;&lt;p&gt;Cette méthode fournit aux équipes de développement les informations nécessaires pour intégrer la sécurité dans la conception et l&amp;rsquo;implémentation du système, dès les premières phases du projet.&lt;/p&gt;&#xA;&lt;h3 id=&#34;points-abordés&#34;&gt;Points abordés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Méthodologie des cas d&amp;rsquo;abus (abuse cases)&lt;/li&gt;&#xA;&lt;li&gt;Conformité OWASP&lt;/li&gt;&#xA;&lt;li&gt;Intégration de la sécurité dans le cycle de développement&lt;/li&gt;&#xA;&lt;li&gt;Exemples pratiques&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>The Art of PostgreSQL</title>
+      <link>http://localhost:1313/program/the-art-of-postgresql/</link>
+      <pubDate>Thu, 11 Apr 2019 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/the-art-of-postgresql/</guid>
+      <description>&lt;h2 id=&#34;the-art-of-postgresql&#34;&gt;The Art of PostgreSQL&lt;/h2&gt;&#xA;&lt;p&gt;PostgreSQL est présenté comme la base de données relationnelle open source la plus avancée du marché.&lt;/p&gt;&#xA;&lt;p&gt;Dimitri Fontaine explore ses capacités pour résoudre des problèmes courants des développeurs et supporter les activités quotidiennes, y compris les tests unitaires.&lt;/p&gt;&#xA;&lt;p&gt;Une présentation qui change la perspective sur PostgreSQL : non plus seulement un outil de stockage, mais un véritable moteur de traitement de données.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Construisez votre maison (dé)connectée avec openHAB</title>
+      <link>http://localhost:1313/program/construisez-votre-maison-d%C3%A9connect%C3%A9e-avec-openhab/</link>
+      <pubDate>Thu, 28 Feb 2019 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/construisez-votre-maison-d%C3%A9connect%C3%A9e-avec-openhab/</guid>
+      <description>&lt;h2 id=&#34;construisez-votre-maison-déconnectée-avec-openhab&#34;&gt;Construisez votre maison (dé)connectée avec openHAB&lt;/h2&gt;&#xA;&lt;p&gt;openHAB est une plateforme d&amp;rsquo;intégration pour solutions domotiques qui permet d&amp;rsquo;aller bien au-delà de ce que chaque système individuel propose.&lt;/p&gt;&#xA;&lt;p&gt;La philosophie : &lt;strong&gt;votre données restent vos données&lt;/strong&gt;. La maison fonctionne localement, sans dépendance au cloud — c&amp;rsquo;est l&amp;rsquo;&lt;strong&gt;Intranet of Things&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;au-programme&#34;&gt;Au programme&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Architecture d&amp;rsquo;openHAB&lt;/li&gt;&#xA;&lt;li&gt;Intégration des appareils IoT&lt;/li&gt;&#xA;&lt;li&gt;Démonstrations live&lt;/li&gt;&#xA;&lt;li&gt;Exemples pratiques de domotique&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Yannick Schaus, mainteneur du projet et architecte basé au Luxembourg, présente ses retours d&amp;rsquo;expérience concrets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Épisode Live des Cast Codeurs</title>
+      <link>http://localhost:1313/program/%C3%A9pisode-live-des-cast-codeurs/</link>
+      <pubDate>Tue, 18 Dec 2018 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/%C3%A9pisode-live-des-cast-codeurs/</guid>
+      <description>&lt;h2 id=&#34;épisode-live-des-cast-codeurs&#34;&gt;Épisode Live des Cast Codeurs&lt;/h2&gt;&#xA;&lt;p&gt;Venez assister à cet épisode live et gagner des cadeaux à l&amp;rsquo;occasion de &lt;strong&gt;l&amp;rsquo;assemblée générale annuelle du YAJUG&lt;/strong&gt; !&lt;/p&gt;&#xA;&lt;p&gt;Les Cast Codeurs est l&amp;rsquo;un des podcasts Java francophones les plus populaires, animé par Emmanuel Bernard, Vincent Massol, Arnaud Héritier et Audrey Neveu.&lt;/p&gt;&#xA;&lt;p&gt;Une soirée unique mêlant contenu technique de qualité et festivités de fin d&amp;rsquo;année.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Solr : sans tambour ni trompette</title>
+      <link>http://localhost:1313/program/apache-solr-sans-tambour-ni-trompette/</link>
+      <pubDate>Tue, 06 Nov 2018 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/apache-solr-sans-tambour-ni-trompette/</guid>
+      <description>&lt;h2 id=&#34;apache-solr--sans-tambour-ni-trompette&#34;&gt;Apache Solr : sans tambour ni trompette&lt;/h2&gt;&#xA;&lt;p&gt;La présentation couvre quatre axes principaux pour maîtriser Apache Solr :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Architecture&lt;/strong&gt; — Comment fonctionne Solr sous le capot&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Indexation&lt;/strong&gt; — Stratégies d&amp;rsquo;indexation efficaces&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Configuration de la recherche&lt;/strong&gt; — Scoring, facettes, suggestions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Configuration du cluster&lt;/strong&gt; — SolrCloud, sharding, réplication&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif : donner aux participants les clés pour implémenter des capacités de recherche full-text dans leurs projets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shaping the Future of Java, Faster</title>
+      <link>http://localhost:1313/program/shaping-the-future-of-java-faster/</link>
+      <pubDate>Wed, 24 Oct 2018 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/shaping-the-future-of-java-faster/</guid>
+      <description>&lt;h2 id=&#34;shaping-the-future-of-java-faster&#34;&gt;Shaping the Future of Java, Faster&lt;/h2&gt;&#xA;&lt;p&gt;La plateforme Java SE et le JDK ont adopté un &lt;strong&gt;cycle de releases rapide de 6 mois&lt;/strong&gt;, avec Java 11 en septembre 2018 et Java 12 prévu pour mars 2019.&lt;/p&gt;&#xA;&lt;p&gt;Cette présentation examine les motivations de ce changement et discute de ses implications pour les développeurs, les entreprises et l&amp;rsquo;écosystème Java en général.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sujets-abordés&#34;&gt;Sujets abordés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Motivation du nouveau cycle de release&lt;/li&gt;&#xA;&lt;li&gt;Java 11 LTS : ce qui change&lt;/li&gt;&#xA;&lt;li&gt;Impact sur les versions Long-Term Support (LTS)&lt;/li&gt;&#xA;&lt;li&gt;Ce que cela signifie pour les projets en production&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Et si on se mettait à l&#39;API ? API Management, OpenAPI</title>
+      <link>http://localhost:1313/program/et-si-on-se-mettait-%C3%A0-lapi-api-management-openapi/</link>
+      <pubDate>Tue, 16 Oct 2018 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/et-si-on-se-mettait-%C3%A0-lapi-api-management-openapi/</guid>
+      <description>&lt;h2 id=&#34;et-si-on-se-mettait-à-lapi-&#34;&gt;Et si on se mettait à l&amp;rsquo;API ?&lt;/h2&gt;&#xA;&lt;p&gt;En 2018, les services cloud exposent leurs données via des APIs. Cette présentation explore les questions clés :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Comment définir ses APIs avec &lt;strong&gt;OpenAPI&lt;/strong&gt; (Swagger) ?&lt;/li&gt;&#xA;&lt;li&gt;Quelles bonnes pratiques pour la documentation ?&lt;/li&gt;&#xA;&lt;li&gt;Comment sécuriser l&amp;rsquo;accès ?&lt;/li&gt;&#xA;&lt;li&gt;Quelles stratégies de monétisation ?&lt;/li&gt;&#xA;&lt;li&gt;Quel rôle pour un API Gateway / API Manager ?&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Au-delà des brokers : un tour de l&#39;environnement Kafka</title>
+      <link>http://localhost:1313/program/au-del%C3%A0-des-brokers-un-tour-de-lenvironnement-kafka/</link>
+      <pubDate>Tue, 02 Oct 2018 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/au-del%C3%A0-des-brokers-un-tour-de-lenvironnement-kafka/</guid>
+      <description>&lt;h2 id=&#34;au-delà-des-brokers--un-tour-de-lenvironnement-kafka&#34;&gt;Au-delà des brokers : un tour de l&amp;rsquo;environnement Kafka&lt;/h2&gt;&#xA;&lt;p&gt;Apache Kafka est bien plus qu&amp;rsquo;un simple système de messaging. Florent Ramière explore l&amp;rsquo;écosystème gravitant autour des brokers Kafka :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kafka Streams&lt;/strong&gt; — traitement de flux en temps réel&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;KSQL&lt;/strong&gt; — requêtes SQL sur des flux de données&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Kafka Connect&lt;/strong&gt; — connecteurs d&amp;rsquo;intégration&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;REST Proxy&lt;/strong&gt; — accès HTTP à Kafka&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Schema Registry&lt;/strong&gt; — gestion des schémas Avro/JSON&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;MirrorMaker&lt;/strong&gt; — réplication inter-clusters&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Déployer facilement vos services de machine learning en Java avec GraalVM</title>
+      <link>http://localhost:1313/program/d%C3%A9ployer-facilement-vos-services-de-machine-learning-en-java-avec-graalvm/</link>
+      <pubDate>Tue, 22 May 2018 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/d%C3%A9ployer-facilement-vos-services-de-machine-learning-en-java-avec-graalvm/</guid>
+      <description>&lt;h2 id=&#34;déployer-facilement-vos-services-de-machine-learning-en-java-avec-graalvm&#34;&gt;Déployer facilement vos services de machine learning en Java avec GraalVM&lt;/h2&gt;&#xA;&lt;p&gt;Philippe Gottfrois et Pierre Paci explorent comment déployer des solutions de machine learning au sein d&amp;rsquo;infrastructures Java existantes.&lt;/p&gt;&#xA;&lt;p&gt;Ils démontrent comment &lt;strong&gt;GraalVM&lt;/strong&gt;, le projet open source d&amp;rsquo;Oracle, permet d&amp;rsquo;intégrer des segments de code Python dans des applications Spring, ouvrant la voie à une synergie entre l&amp;rsquo;écosystème Python ML et le monde Java enterprise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stratégie mobile et capacités des navigateurs modernes</title>
+      <link>http://localhost:1313/program/strat%C3%A9gie-mobile-et-capacit%C3%A9s-des-navigateurs-modernes/</link>
+      <pubDate>Wed, 18 Apr 2018 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/strat%C3%A9gie-mobile-et-capacit%C3%A9s-des-navigateurs-modernes/</guid>
+      <description>&lt;h2 id=&#34;stratégie-mobile-et-capacités-des-navigateurs-modernes&#34;&gt;Stratégie mobile et capacités des navigateurs modernes&lt;/h2&gt;&#xA;&lt;p&gt;Stéphanie Walter examine les différentes approches pour délivrer du contenu mobile :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sites mobiles dédiés&lt;/li&gt;&#xA;&lt;li&gt;Responsive design et mobile-first&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Progressive Web Apps (PWA)&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Applications hybrides&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;La présentation explore comment les capacités des navigateurs ont considérablement évolué depuis l&amp;rsquo;ère de l&amp;rsquo;iPhone 3, et comment en tirer parti pour chaque stratégie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Applications réactives avec Eclipse Vert.x</title>
+      <link>http://localhost:1313/program/applications-r%C3%A9actives-avec-eclipse-vert.x/</link>
+      <pubDate>Tue, 06 Mar 2018 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/applications-r%C3%A9actives-avec-eclipse-vert.x/</guid>
+      <description>&lt;h2 id=&#34;applications-réactives-avec-eclipse-vertx&#34;&gt;Applications réactives avec Eclipse Vert.x&lt;/h2&gt;&#xA;&lt;p&gt;Julien Viet, lead du projet Vert.x, présente ce toolkit pour écrire des &lt;strong&gt;applications réactives et polyglottes&lt;/strong&gt; sur la JVM.&lt;/p&gt;&#xA;&lt;p&gt;La session commence par une vue d&amp;rsquo;ensemble de Vert.x et des paradigmes de programmation réactive, puis introduit la programmation réactive avec &lt;strong&gt;RxJava 2&lt;/strong&gt; et Vert.x.&lt;/p&gt;&#xA;&lt;h3 id=&#34;points-abordés&#34;&gt;Points abordés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Architecture event-loop de Vert.x&lt;/li&gt;&#xA;&lt;li&gt;Verticles et event bus&lt;/li&gt;&#xA;&lt;li&gt;Programmation réactive avec RxJava 2&lt;/li&gt;&#xA;&lt;li&gt;Cas d&amp;rsquo;usage : APIs REST, microservices, streaming&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Tests de charge avec Gatling</title>
+      <link>http://localhost:1313/program/tests-de-charge-avec-gatling/</link>
+      <pubDate>Tue, 13 Feb 2018 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/tests-de-charge-avec-gatling/</guid>
+      <description>&lt;h2 id=&#34;tests-de-charge-avec-gatling&#34;&gt;Tests de charge avec Gatling&lt;/h2&gt;&#xA;&lt;p&gt;ou &lt;em&gt;Comment arrêter de croiser les doigts lorsqu&amp;rsquo;on passe en prod&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Stéphane Landelle aborde la méthodologie des tests de charge, puis se concentre sur &lt;strong&gt;Gatling&lt;/strong&gt;, l&amp;rsquo;outil open source de référence.&lt;/p&gt;&#xA;&lt;p&gt;Gatling génère des utilisateurs virtuels naviguant sur des sites grâce à une architecture moderne basée sur :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Non-blocking I/O&lt;/strong&gt; (Netty)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modèle actor&lt;/strong&gt; (Akka)&lt;/li&gt;&#xA;&lt;li&gt;DSL Scala expressif&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;au-programme&#34;&gt;Au programme&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Concepts des tests de charge&lt;/li&gt;&#xA;&lt;li&gt;Architecture de Gatling&lt;/li&gt;&#xA;&lt;li&gt;Écriture de scénarios&lt;/li&gt;&#xA;&lt;li&gt;Analyse des rapports&lt;/li&gt;&#xA;&lt;li&gt;Intégration CI/CD&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Microservices avec Spring Cloud</title>
+      <link>http://localhost:1313/program/microservices-avec-spring-cloud/</link>
+      <pubDate>Thu, 18 Jan 2018 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/microservices-avec-spring-cloud/</guid>
+      <description>&lt;h2 id=&#34;microservices-avec-spring-cloud&#34;&gt;Microservices avec Spring Cloud&lt;/h2&gt;&#xA;&lt;p&gt;Spring Cloud délivre l&amp;rsquo;infrastructure technique nécessaire à l&amp;rsquo;implémentation d&amp;rsquo;une architecture microservices.&lt;/p&gt;&#xA;&lt;p&gt;Combiné avec Spring Boot, il permet de composer rapidement des applications à partir de services individuels et de les déployer en production avec scalabilité et monitoring en temps réel.&lt;/p&gt;&#xA;&lt;h3 id=&#34;composants-abordés&#34;&gt;Composants abordés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Spring Cloud Config — configuration centralisée&lt;/li&gt;&#xA;&lt;li&gt;Eureka — découverte de services&lt;/li&gt;&#xA;&lt;li&gt;Ribbon — load balancing côté client&lt;/li&gt;&#xA;&lt;li&gt;Hystrix — circuit breaker&lt;/li&gt;&#xA;&lt;li&gt;Zuul — API Gateway&lt;/li&gt;&#xA;&lt;li&gt;Sleuth + Zipkin — distributed tracing&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>And Java becomes more functional with Vavr.io!</title>
+      <link>http://localhost:1313/program/and-java-becomes-more-functional-with-vavr.io/</link>
+      <pubDate>Wed, 13 Dec 2017 17:45:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/and-java-becomes-more-functional-with-vavr.io/</guid>
+      <description>&lt;h2 id=&#34;and-java-becomes-more-functional-with-vavrio&#34;&gt;And Java becomes more functional with Vavr.io!&lt;/h2&gt;&#xA;&lt;p&gt;Guillaume Lours explore &lt;strong&gt;Vavr&lt;/strong&gt;, une bibliothèque entièrement dédiée au paradigme de programmation fonctionnelle pour Java.&lt;/p&gt;&#xA;&lt;h3 id=&#34;au-programme&#34;&gt;Au programme&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Collections immuables&lt;/li&gt;&#xA;&lt;li&gt;Types valeur : &lt;code&gt;Option&lt;/code&gt;, &lt;code&gt;Try&lt;/code&gt;, &lt;code&gt;Either&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Composition fonctionnelle&lt;/li&gt;&#xA;&lt;li&gt;Lifting et memoization&lt;/li&gt;&#xA;&lt;li&gt;Currying&lt;/li&gt;&#xA;&lt;li&gt;Pattern matching&lt;/li&gt;&#xA;&lt;li&gt;Property-based testing&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Kotlin</title>
+      <link>http://localhost:1313/program/kotlin/</link>
+      <pubDate>Thu, 13 Apr 2017 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/kotlin/</guid>
+      <description>&lt;h2 id=&#34;kotlin&#34;&gt;Kotlin&lt;/h2&gt;&#xA;&lt;p&gt;Kotlin est un langage basé sur la JVM développé par &lt;strong&gt;JetBrains&lt;/strong&gt; depuis 2010, inspiré de Java, Scala, C# et Groovy.&lt;/p&gt;&#xA;&lt;p&gt;La présentation couvre :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Syntaxe du langage et ses avantages&lt;/li&gt;&#xA;&lt;li&gt;Interopérabilité avec Java&lt;/li&gt;&#xA;&lt;li&gt;Intégration dans des stacks Spring Boot&lt;/li&gt;&#xA;&lt;li&gt;Null safety, data classes, extensions&lt;/li&gt;&#xA;&lt;li&gt;Coroutines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Depuis mai 2017, Kotlin est officiellement supporté pour le développement Android.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Open Source Identity Management with Keycloak</title>
+      <link>http://localhost:1313/program/open-source-identity-management-with-keycloak/</link>
+      <pubDate>Tue, 25 Oct 2016 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/open-source-identity-management-with-keycloak/</guid>
+      <description>&lt;h2 id=&#34;open-source-identity-management-with-keycloak&#34;&gt;Open Source Identity Management with Keycloak&lt;/h2&gt;&#xA;&lt;p&gt;Thomas Darimont présente la gestion d&amp;rsquo;identité avec &lt;strong&gt;Keycloak&lt;/strong&gt;, la plateforme JBoss/Red Hat.&lt;/p&gt;&#xA;&lt;h3 id=&#34;sujets-abordés&#34;&gt;Sujets abordés&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Concepts fondamentaux de l&amp;rsquo;Identity Management&lt;/li&gt;&#xA;&lt;li&gt;Standards d&amp;rsquo;authentification : OAuth 2.0 et OpenID Connect&lt;/li&gt;&#xA;&lt;li&gt;Fonctionnalités de la plateforme Keycloak&lt;/li&gt;&#xA;&lt;li&gt;Exemples d&amp;rsquo;intégration :&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java EE&lt;/li&gt;&#xA;&lt;li&gt;Spring Boot&lt;/li&gt;&#xA;&lt;li&gt;Applications mobiles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Administration et configuration&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>De Zéro à Héros avec Spring Boot</title>
+      <link>http://localhost:1313/program/de-z%C3%A9ro-%C3%A0-h%C3%A9ros-avec-spring-boot/</link>
+      <pubDate>Tue, 15 Mar 2016 18:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/de-z%C3%A9ro-%C3%A0-h%C3%A9ros-avec-spring-boot/</guid>
+      <description>&lt;h2 id=&#34;de-zéro-à-héros-avec-spring-boot&#34;&gt;De Zéro à Héros avec Spring Boot&lt;/h2&gt;&#xA;&lt;p&gt;Stéphane Nicoll, core committer Spring Boot, présente comment Spring Boot combine la flexibilité de Spring avec des valeurs par défaut sensées.&lt;/p&gt;&#xA;&lt;h3 id=&#34;cas-dusage-couverts&#34;&gt;Cas d&amp;rsquo;usage couverts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Services REST&lt;/li&gt;&#xA;&lt;li&gt;Plateformes web&lt;/li&gt;&#xA;&lt;li&gt;Applications batch&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;thèmes-principaux&#34;&gt;Thèmes principaux&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Auto-configuration et starters&lt;/li&gt;&#xA;&lt;li&gt;Développement microservices&lt;/li&gt;&#xA;&lt;li&gt;Pratiques DevOps avec Spring Boot&lt;/li&gt;&#xA;&lt;li&gt;Actuator et observabilité&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Des containers de la cale au pont</title>
+      <link>http://localhost:1313/program/des-containers-de-la-cale-au-pont/</link>
+      <pubDate>Tue, 20 Oct 2015 17:45:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/des-containers-de-la-cale-au-pont/</guid>
+      <description>&lt;h2 id=&#34;des-containers-de-la-cale-au-pont&#34;&gt;Des containers de la cale au pont&lt;/h2&gt;&#xA;&lt;p&gt;Nicolas Muller présente &lt;strong&gt;Docker&lt;/strong&gt; et son écosystème pour les développeurs Java.&lt;/p&gt;&#xA;&lt;p&gt;La session de 90 minutes inclut des démonstrations live orientées vers les cas d&amp;rsquo;usage du développement quotidien.&lt;/p&gt;&#xA;&lt;h3 id=&#34;au-programme&#34;&gt;Au programme&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Docker : concepts fondamentaux&lt;/li&gt;&#xA;&lt;li&gt;Docker Compose — orchestration locale&lt;/li&gt;&#xA;&lt;li&gt;Docker Machine&lt;/li&gt;&#xA;&lt;li&gt;Docker Swarm&lt;/li&gt;&#xA;&lt;li&gt;Patterns architecturaux pour applications Java&lt;/li&gt;&#xA;&lt;li&gt;Comment tirer le meilleur parti de Docker dans votre travail Java quotidien&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Cassandra</title>
+      <link>http://localhost:1313/program/cassandra/</link>
+      <pubDate>Thu, 02 Oct 2014 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/program/cassandra/</guid>
+      <description>&lt;h2 id=&#34;cassandra&#34;&gt;Cassandra&lt;/h2&gt;&#xA;&lt;p&gt;Introduction à &lt;strong&gt;Apache Cassandra&lt;/strong&gt;, la base de données NoSQL columnar utilisée par des géants comme Netflix, Sony Entertainment et Apple.&lt;/p&gt;&#xA;&lt;h3 id=&#34;au-programme&#34;&gt;Au programme&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Architecture et modèle de données de Cassandra&lt;/li&gt;&#xA;&lt;li&gt;Bonnes pratiques de modélisation de données&lt;/li&gt;&#xA;&lt;li&gt;Transition du SQL vers le NoSQL&lt;/li&gt;&#xA;&lt;li&gt;Pilotes Java et intégration&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

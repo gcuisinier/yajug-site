@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Containers on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/containers/</link><description>Recent content in Containers on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 20 Oct 2015 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/containers/index.xml" rel="self" type="application/rss+xml"/><item><title>Des containers de la cale au pont</title><link>https://www.gcuisinier.net/yajug-site/events/2015-10-docker/</link><pubDate>Tue, 20 Oct 2015 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2015-10-docker/</guid><description>&lt;h2 id="des-containers-de-la-cale-au-pont">Des containers de la cale au pont&lt;/h2>
+&lt;p>Nicolas Muller présente &lt;strong>Docker&lt;/strong> et son écosystème pour les développeurs Java.&lt;/p>
+&lt;p>La session de 90 minutes inclut des démonstrations live orientées vers les cas d&amp;rsquo;usage du développement quotidien.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Docker : concepts fondamentaux&lt;/li>
+&lt;li>Docker Compose — orchestration locale&lt;/li>
+&lt;li>Docker Machine&lt;/li>
+&lt;li>Docker Swarm&lt;/li>
+&lt;li>Patterns architecturaux pour applications Java&lt;/li>
+&lt;li>Comment tirer le meilleur parti de Docker dans votre travail Java quotidien&lt;/li>
+&lt;/ul></description></item></channel></rss>

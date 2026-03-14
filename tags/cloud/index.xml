@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/cloud/</link><description>Recent content in Cloud on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 18 Jan 2018 17:45:00 +0100</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>Microservices avec Spring Cloud</title><link>https://www.gcuisinier.net/yajug-site/events/2018-01-spring-cloud/</link><pubDate>Thu, 18 Jan 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-01-spring-cloud/</guid><description>&lt;h2 id="microservices-avec-spring-cloud">Microservices avec Spring Cloud&lt;/h2>
+&lt;p>Spring Cloud délivre l&amp;rsquo;infrastructure technique nécessaire à l&amp;rsquo;implémentation d&amp;rsquo;une architecture microservices.&lt;/p>
+&lt;p>Combiné avec Spring Boot, il permet de composer rapidement des applications à partir de services individuels et de les déployer en production avec scalabilité et monitoring en temps réel.&lt;/p>
+&lt;h3 id="composants-abordés">Composants abordés&lt;/h3>
+&lt;ul>
+&lt;li>Spring Cloud Config — configuration centralisée&lt;/li>
+&lt;li>Eureka — découverte de services&lt;/li>
+&lt;li>Ribbon — load balancing côté client&lt;/li>
+&lt;li>Hystrix — circuit breaker&lt;/li>
+&lt;li>Zuul — API Gateway&lt;/li>
+&lt;li>Sleuth + Zipkin — distributed tracing&lt;/li>
+&lt;/ul></description></item></channel></rss>

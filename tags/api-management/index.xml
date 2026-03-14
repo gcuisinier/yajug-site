@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api-Management on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/api-management/</link><description>Recent content in Api-Management on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 16 Oct 2018 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/api-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Et si on se mettait à l'API ? API Management, OpenAPI</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-api-management/</link><pubDate>Tue, 16 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-api-management/</guid><description>&lt;h2 id="et-si-on-se-mettait-à-lapi-">Et si on se mettait à l&amp;rsquo;API ?&lt;/h2>
+&lt;p>En 2018, les services cloud exposent leurs données via des APIs. Cette présentation explore les questions clés :&lt;/p>
+&lt;ul>
+&lt;li>Comment définir ses APIs avec &lt;strong>OpenAPI&lt;/strong> (Swagger) ?&lt;/li>
+&lt;li>Quelles bonnes pratiques pour la documentation ?&lt;/li>
+&lt;li>Comment sécuriser l&amp;rsquo;accès ?&lt;/li>
+&lt;li>Quelles stratégies de monétisation ?&lt;/li>
+&lt;li>Quel rôle pour un API Gateway / API Manager ?&lt;/li>
+&lt;/ul></description></item></channel></rss>

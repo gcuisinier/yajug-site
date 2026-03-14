@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kafka on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/kafka/</link><description>Recent content in Kafka on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 02 Oct 2018 17:45:00 +0200</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/kafka/index.xml" rel="self" type="application/rss+xml"/><item><title>Au-delà des brokers : un tour de l'environnement Kafka</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-kafka-ecosystem/</link><pubDate>Tue, 02 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-kafka-ecosystem/</guid><description>&lt;h2 id="au-delà-des-brokers--un-tour-de-lenvironnement-kafka">Au-delà des brokers : un tour de l&amp;rsquo;environnement Kafka&lt;/h2>
+&lt;p>Apache Kafka est bien plus qu&amp;rsquo;un simple système de messaging. Florent Ramière explore l&amp;rsquo;écosystème gravitant autour des brokers Kafka :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Kafka Streams&lt;/strong> — traitement de flux en temps réel&lt;/li>
+&lt;li>&lt;strong>KSQL&lt;/strong> — requêtes SQL sur des flux de données&lt;/li>
+&lt;li>&lt;strong>Kafka Connect&lt;/strong> — connecteurs d&amp;rsquo;intégration&lt;/li>
+&lt;li>&lt;strong>REST Proxy&lt;/strong> — accès HTTP à Kafka&lt;/li>
+&lt;li>&lt;strong>Schema Registry&lt;/strong> — gestion des schémas Avro/JSON&lt;/li>
+&lt;li>&lt;strong>MirrorMaker&lt;/strong> — réplication inter-clusters&lt;/li>
+&lt;/ul></description></item></channel></rss>

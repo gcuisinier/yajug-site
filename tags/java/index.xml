@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on YAJUG — Yet Another Java User Group Luxembourg</title><link>https://www.gcuisinier.net/yajug-site/tags/java/</link><description>Recent content in Java on YAJUG — Yet Another Java User Group Luxembourg</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 28 Feb 2019 17:45:00 +0100</lastBuildDate><atom:link href="https://www.gcuisinier.net/yajug-site/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Construisez votre maison (dé)connectée avec openHAB</title><link>https://www.gcuisinier.net/yajug-site/events/2019-02-openhab/</link><pubDate>Thu, 28 Feb 2019 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2019-02-openhab/</guid><description>&lt;h2 id="construisez-votre-maison-déconnectée-avec-openhab">Construisez votre maison (dé)connectée avec openHAB&lt;/h2>
+&lt;p>openHAB est une plateforme d&amp;rsquo;intégration pour solutions domotiques qui permet d&amp;rsquo;aller bien au-delà de ce que chaque système individuel propose.&lt;/p>
+&lt;p>La philosophie : &lt;strong>votre données restent vos données&lt;/strong>. La maison fonctionne localement, sans dépendance au cloud — c&amp;rsquo;est l&amp;rsquo;&lt;strong>Intranet of Things&lt;/strong>.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Architecture d&amp;rsquo;openHAB&lt;/li>
+&lt;li>Intégration des appareils IoT&lt;/li>
+&lt;li>Démonstrations live&lt;/li>
+&lt;li>Exemples pratiques de domotique&lt;/li>
+&lt;/ul>
+&lt;p>Yannick Schaus, mainteneur du projet et architecte basé au Luxembourg, présente ses retours d&amp;rsquo;expérience concrets.&lt;/p></description></item><item><title>Apache Solr : sans tambour ni trompette</title><link>https://www.gcuisinier.net/yajug-site/events/2018-11-apache-solr/</link><pubDate>Tue, 06 Nov 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-11-apache-solr/</guid><description>&lt;h2 id="apache-solr--sans-tambour-ni-trompette">Apache Solr : sans tambour ni trompette&lt;/h2>
+&lt;p>La présentation couvre quatre axes principaux pour maîtriser Apache Solr :&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Architecture&lt;/strong> — Comment fonctionne Solr sous le capot&lt;/li>
+&lt;li>&lt;strong>Indexation&lt;/strong> — Stratégies d&amp;rsquo;indexation efficaces&lt;/li>
+&lt;li>&lt;strong>Configuration de la recherche&lt;/strong> — Scoring, facettes, suggestions&lt;/li>
+&lt;li>&lt;strong>Configuration du cluster&lt;/strong> — SolrCloud, sharding, réplication&lt;/li>
+&lt;/ol>
+&lt;p>L&amp;rsquo;objectif : donner aux participants les clés pour implémenter des capacités de recherche full-text dans leurs projets.&lt;/p></description></item><item><title>Shaping the Future of Java, Faster</title><link>https://www.gcuisinier.net/yajug-site/events/2018-10-shaping-future-java/</link><pubDate>Wed, 24 Oct 2018 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-10-shaping-future-java/</guid><description>&lt;h2 id="shaping-the-future-of-java-faster">Shaping the Future of Java, Faster&lt;/h2>
+&lt;p>La plateforme Java SE et le JDK ont adopté un &lt;strong>cycle de releases rapide de 6 mois&lt;/strong>, avec Java 11 en septembre 2018 et Java 12 prévu pour mars 2019.&lt;/p>
+&lt;p>Cette présentation examine les motivations de ce changement et discute de ses implications pour les développeurs, les entreprises et l&amp;rsquo;écosystème Java en général.&lt;/p>
+&lt;h3 id="sujets-abordés">Sujets abordés&lt;/h3>
+&lt;ul>
+&lt;li>Motivation du nouveau cycle de release&lt;/li>
+&lt;li>Java 11 LTS : ce qui change&lt;/li>
+&lt;li>Impact sur les versions Long-Term Support (LTS)&lt;/li>
+&lt;li>Ce que cela signifie pour les projets en production&lt;/li>
+&lt;/ul></description></item><item><title>Applications réactives avec Eclipse Vert.x</title><link>https://www.gcuisinier.net/yajug-site/events/2018-03-eclipse-vertx/</link><pubDate>Tue, 06 Mar 2018 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2018-03-eclipse-vertx/</guid><description>&lt;h2 id="applications-réactives-avec-eclipse-vertx">Applications réactives avec Eclipse Vert.x&lt;/h2>
+&lt;p>Julien Viet, lead du projet Vert.x, présente ce toolkit pour écrire des &lt;strong>applications réactives et polyglottes&lt;/strong> sur la JVM.&lt;/p>
+&lt;p>La session commence par une vue d&amp;rsquo;ensemble de Vert.x et des paradigmes de programmation réactive, puis introduit la programmation réactive avec &lt;strong>RxJava 2&lt;/strong> et Vert.x.&lt;/p>
+&lt;h3 id="points-abordés">Points abordés&lt;/h3>
+&lt;ul>
+&lt;li>Architecture event-loop de Vert.x&lt;/li>
+&lt;li>Verticles et event bus&lt;/li>
+&lt;li>Programmation réactive avec RxJava 2&lt;/li>
+&lt;li>Cas d&amp;rsquo;usage : APIs REST, microservices, streaming&lt;/li>
+&lt;/ul></description></item><item><title>And Java becomes more functional with Vavr.io!</title><link>https://www.gcuisinier.net/yajug-site/events/2017-12-vavr/</link><pubDate>Wed, 13 Dec 2017 17:45:00 +0100</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2017-12-vavr/</guid><description>&lt;h2 id="and-java-becomes-more-functional-with-vavrio">And Java becomes more functional with Vavr.io!&lt;/h2>
+&lt;p>Guillaume Lours explore &lt;strong>Vavr&lt;/strong>, une bibliothèque entièrement dédiée au paradigme de programmation fonctionnelle pour Java.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Collections immuables&lt;/li>
+&lt;li>Types valeur : &lt;code>Option&lt;/code>, &lt;code>Try&lt;/code>, &lt;code>Either&lt;/code>&lt;/li>
+&lt;li>Composition fonctionnelle&lt;/li>
+&lt;li>Lifting et memoization&lt;/li>
+&lt;li>Currying&lt;/li>
+&lt;li>Pattern matching&lt;/li>
+&lt;li>Property-based testing&lt;/li>
+&lt;/ul></description></item><item><title>Des containers de la cale au pont</title><link>https://www.gcuisinier.net/yajug-site/events/2015-10-docker/</link><pubDate>Tue, 20 Oct 2015 17:45:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2015-10-docker/</guid><description>&lt;h2 id="des-containers-de-la-cale-au-pont">Des containers de la cale au pont&lt;/h2>
+&lt;p>Nicolas Muller présente &lt;strong>Docker&lt;/strong> et son écosystème pour les développeurs Java.&lt;/p>
+&lt;p>La session de 90 minutes inclut des démonstrations live orientées vers les cas d&amp;rsquo;usage du développement quotidien.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Docker : concepts fondamentaux&lt;/li>
+&lt;li>Docker Compose — orchestration locale&lt;/li>
+&lt;li>Docker Machine&lt;/li>
+&lt;li>Docker Swarm&lt;/li>
+&lt;li>Patterns architecturaux pour applications Java&lt;/li>
+&lt;li>Comment tirer le meilleur parti de Docker dans votre travail Java quotidien&lt;/li>
+&lt;/ul></description></item><item><title>Cassandra</title><link>https://www.gcuisinier.net/yajug-site/events/2014-10-cassandra/</link><pubDate>Thu, 02 Oct 2014 18:00:00 +0200</pubDate><guid>https://www.gcuisinier.net/yajug-site/events/2014-10-cassandra/</guid><description>&lt;h2 id="cassandra">Cassandra&lt;/h2>
+&lt;p>Introduction à &lt;strong>Apache Cassandra&lt;/strong>, la base de données NoSQL columnar utilisée par des géants comme Netflix, Sony Entertainment et Apple.&lt;/p>
+&lt;h3 id="au-programme">Au programme&lt;/h3>
+&lt;ul>
+&lt;li>Architecture et modèle de données de Cassandra&lt;/li>
+&lt;li>Bonnes pratiques de modélisation de données&lt;/li>
+&lt;li>Transition du SQL vers le NoSQL&lt;/li>
+&lt;li>Pilotes Java et intégration&lt;/li>
+&lt;/ul></description></item></channel></rss>

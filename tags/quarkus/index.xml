@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quarkus on YAJUG — Yet Another Java User Group Luxembourg</title>
+    <link>http://localhost:1313/tags/quarkus/</link>
+    <description>Recent content in Quarkus on YAJUG — Yet Another Java User Group Luxembourg</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Nov 2024 10:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quarkus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recap : Quarkus Deep Dive</title>
+      <link>http://localhost:1313/blog/2024/11/recap-quarkus-deep-dive/</link>
+      <pubDate>Fri, 22 Nov 2024 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/2024/11/recap-quarkus-deep-dive/</guid>
+      <description>&lt;h2 id=&#34;une-soirée-placée-sous-le-signe-du-cloud-native&#34;&gt;Une soirée placée sous le signe du cloud-native&lt;/h2&gt;&#xA;&lt;p&gt;Le 19 novembre dernier, plus de 40 développeurs se sont réunis au Parc Belair pour notre&#xA;session &lt;strong&gt;Quarkus Deep Dive&lt;/strong&gt;. Jane Doe nous a offert une présentation complète et très&#xA;appréciée du framework Quarkus.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ce-quon-a-appris&#34;&gt;Ce qu&amp;rsquo;on a appris&lt;/h2&gt;&#xA;&lt;h3 id=&#34;quarkus-en-bref&#34;&gt;Quarkus en bref&lt;/h3&gt;&#xA;&lt;p&gt;Quarkus est un framework Java pensé pour les environnements cloud-native et Kubernetes.&#xA;Ses points forts :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Démarrage ultra-rapide (quelques millisecondes)&lt;/li&gt;&#xA;&lt;li&gt;Empreinte mémoire réduite&lt;/li&gt;&#xA;&lt;li&gt;Rechargement à chaud en développement&lt;/li&gt;&#xA;&lt;li&gt;Mode natif via GraalVM&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;live-coding&#34;&gt;Live coding&lt;/h3&gt;&#xA;&lt;p&gt;Jane a réalisé une démonstration live de la création d&amp;rsquo;un microservice REST avec Quarkus,&#xA;en montrant le mode dev et la compilation native. Le contraste avec une application Spring Boot&#xA;classique était saisissant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quarkus Deep Dive</title>
+      <link>http://localhost:1313/program/quarkus-deep-dive/</link>
+      <pubDate>Tue, 19 Nov 2024 18:30:00 +0100</pubDate>
+      <guid>http://localhost:1313/program/quarkus-deep-dive/</guid>
+      <description>&lt;h2 id=&#34;recap&#34;&gt;Recap&lt;/h2&gt;&#xA;&lt;p&gt;Une excellente soirée avec plus de 40 participants ! Jane nous a présenté Quarkus en détail,&#xA;couvrant les extensions, le mode natif GraalVM et la comparaison avec Spring Boot.&lt;/p&gt;&#xA;&lt;p&gt;Merci à tous les participants et à notre speaker !&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
