@@ -5,7 +5,7 @@
     {{ with $event.Params.event_date }}
     <time datetime="{{ . }}">
       <span class="event-card__day">{{ dateFormat "02" . }}</span>
-      <span class="event-card__month">{{ dateFormat "Jan" . }}</span>
+      <span class="event-card__month">{{ partial "fr-date.html" (dict "date" . "format" "abbr") }}</span>
       <span class="event-card__year">{{ dateFormat "2006" . }}</span>
     </time>
     {{ end }}

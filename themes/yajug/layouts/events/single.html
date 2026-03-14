@@ -8,7 +8,7 @@
           {{ with .Params.event_date }}
           <div class="event-single__meta-item">
             <span class="event-single__meta-icon">📅</span>
-            <time datetime="{{ . }}">{{ dateFormat "Monday, January 2, 2006" . }}</time>
+            <time datetime="{{ . }}">{{ partial "fr-date.html" (dict "date" . "format" "long") }}</time>
           </div>
           {{ end }}
           {{ with .Params.event_time }}

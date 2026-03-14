@@ -1,0 +1,54 @@
+{{/* French date formatting
+  Usage (abbreviated month): {{ partial "fr-date.html" (dict "date" .Params.event_date "format" "abbr") }}
+  Usage (full date):         {{ partial "fr-date.html" (dict "date" .Params.event_date "format" "long") }}
+*/}}
+{{ $date := .date }}
+{{ $format := .format | default "long" }}
+
+{{ $monthEn := dateFormat "January" $date }}
+{{ $months := dict
+  "January"   "Janvier"
+  "February"  "Février"
+  "March"     "Mars"
+  "April"     "Avril"
+  "May"       "Mai"
+  "June"      "Juin"
+  "July"      "Juillet"
+  "August"    "Août"
+  "September" "Septembre"
+  "October"   "Octobre"
+  "November"  "Novembre"
+  "December"  "Décembre"
+}}
+{{ $monthsAbbr := dict
+  "January"   "Jan"
+  "February"  "Fév"
+  "March"     "Mar"
+  "April"     "Avr"
+  "May"       "Mai"
+  "June"      "Juin"
+  "July"      "Juil"
+  "August"    "Aoû"
+  "September" "Sep"
+  "October"   "Oct"
+  "November"  "Nov"
+  "December"  "Déc"
+}}
+
+{{ if eq $format "abbr" -}}
+{{ index $monthsAbbr $monthEn | default $monthEn -}}
+{{ else -}}
+{{ $dayEn   := dateFormat "Monday" $date -}}
+{{ $days := dict
+  "Monday"    "Lundi"
+  "Tuesday"   "Mardi"
+  "Wednesday" "Mercredi"
+  "Thursday"  "Jeudi"
+  "Friday"    "Vendredi"
+  "Saturday"  "Samedi"
+  "Sunday"    "Dimanche"
+}}
+{{ $dayFr   := index $days $dayEn | default $dayEn -}}
+{{ $monthFr := index $months $monthEn | default $monthEn -}}
+{{ $dayFr }} {{ dateFormat "2" $date }} {{ $monthFr }} {{ dateFormat "2006" $date }}
+{{ end }}

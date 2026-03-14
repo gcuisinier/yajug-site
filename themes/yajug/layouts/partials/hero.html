@@ -17,7 +17,7 @@
         <div class="hero-event-card">
           <div class="hero-event-card__date">
             <span class="hero-event-card__day">{{ dateFormat "02" .Params.event_date }}</span>
-            <span class="hero-event-card__month">{{ dateFormat "Jan" .Params.event_date }}</span>
+            <span class="hero-event-card__month">{{ partial "fr-date.html" (dict "date" .Params.event_date "format" "abbr") }}</span>
             <span class="hero-event-card__year">{{ dateFormat "2006" .Params.event_date }}</span>
           </div>
           <div class="hero-event-card__body">
