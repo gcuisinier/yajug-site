@@ -1,7 +1,7 @@
 ---
 title: "Langchain4j for dummies"
 date: 2025-05-14T17:45:00+02:00
-draft: false
+draft: true
 event_date: "2026-05-14"
 event_time: "17:45"
 venue: "Luxembourg"
