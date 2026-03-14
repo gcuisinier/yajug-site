@@ -21,9 +21,9 @@
             <span class="hero-event-card__year">{{ dateFormat "2006" .Params.event_date }}</span>
           </div>
           <div class="hero-event-card__body">
-            <h3 class="hero-event-card__title">
+            <h2 class="hero-event-card__title">
               <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </h3>
+            </h2>
             {{ with .Params.event_time }}
             <p class="hero-event-card__meta">{{ . }}{{ with $.Params.venue }} · {{ . }}{{ end }}</p>
             {{ end }}
