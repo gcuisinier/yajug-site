@@ -1,7 +1,8 @@
 - name: "Aurore Simon"
   role: "Membre du board"
   photo: "/images/team/aurore-simon.png"
-  social: {}
+  social:
+      linkedin: "simonaurore"
 
 - name: "Gildas Cuisinier"
   role: "Membre du board"
@@ -18,7 +19,8 @@
   social:
     twitter: "zepag"
     linkedin: "pagregoire"
-    bluesky: "@zepag.fr"
+    github: "zepag"
+    bluesky: "zepag.fr"
 
 - name: "Fabien Hanesse"
   role: "Secrétaire"
@@ -31,13 +33,17 @@
   photo: "/images/team/mathieu-leclaire.jpg"
   social:
     twitter: "matleclaire"
-    bluesky: "@matleclaire.bsky.social"
+    linkedin: "mathieu-leclaire-6720a918"
+    github: "matleclaire"
+    bluesky: "matleclaire.bsky.social"
 
 - name: "Sylvere Richard"
   role: "Membre du board"
   photo: "/images/team/sylvere-richard.jpeg"
   social:
     twitter: "nowheresly"
+    linkedin: "sylvère-richard-58024129"
+    github: "Nowheresly"
 
 - name: "Luigi Mastroserio"
   role: "Membre du board"
@@ -65,7 +71,8 @@
 - name: "Catalin Samarghitan"
   role: "Membre du board"
   photo: ""
-  social: {}
+  social:
+    linkedin: "catalin-samarghitan-0067a811"
 
 - name: "Nicolas Waeckerlé"
   role: "Ancien membre"
@@ -75,12 +82,16 @@
 - name: "Lucas Dehandschutter"
   role: "Membre du board"
   photo: "/images/team/lucas-dehandschutter.jpg"
-  social: {}
+  social:
+    linkedin: "lucas-de"
+    github: "lucas-dehandschutter"
 
 - name: "Yannick Kirschhoffer"
   role: "Membre du board"
   photo: "/images/team/yannick-kirschhoffer.jpg"
-  social: {}
+  social:
+    twitter: "kirschhoffer"
+    linkedin: "alcibiade"
 
 - name: "Marc Gabriel-Willem"
   role: "Ancien membre"
