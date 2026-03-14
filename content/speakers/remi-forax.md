@@ -6,7 +6,7 @@ photo: "/images/speakers/remi-forax.jpg"
 role: "Associate Professor"
 company: "Université Paris Est Marne-la-Vallée"
 social:
-  twitter: ""
+  twitter: "remiforaxoff"
   github: "forax"
 ---
 

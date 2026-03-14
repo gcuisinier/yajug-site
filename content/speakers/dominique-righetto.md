@@ -8,6 +8,8 @@ company: ""
 social:
   twitter: "righettod"
   linkedin: "righettod"
+  github: "righettod"
+  bluesky: "righettod.eu"
 ---
 
 Application security specialist and OWASP contributor. Expert in Security By Design methodologies and secure software development practices.

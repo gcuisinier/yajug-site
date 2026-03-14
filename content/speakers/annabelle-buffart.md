@@ -8,6 +8,7 @@ company: "Inspiiro.me"
 social:
   twitter: "yoseihana"
   linkedin: "annabuffart"
+  github: "yoseihana"
   website: "https://annabelle.io"
 ---
 

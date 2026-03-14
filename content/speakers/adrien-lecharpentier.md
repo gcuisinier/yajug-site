@@ -6,8 +6,9 @@ photo: "/images/speakers/adrien-lecharpentier.jpg"
 role: "Staff Software Engineer"
 company: "CloudBees"
 social:
-  github: "alecharp"
+  twitter: "alecharp"
   linkedin: "alecharp"
+  github: "alecharp"
   website: "https://alecharp.fr"
 ---
 

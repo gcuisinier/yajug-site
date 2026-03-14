@@ -6,7 +6,8 @@ photo: "/images/speakers/pierrick-vandenbroucke.png"
 role: "Java Analyst/Developer"
 company: "Nowina Solutions"
 social:
-  linkedin: "pierrickvandenbroucke"
+  linkedin: "pierrick-vandenbroucke-732ab227"
+  github: "pvandenbroucke"
 ---
 
 Passionné par les technologies Java et la cybersécurité. Spécialisé dans la création et la validation de signatures électroniques avancées, avec une expertise dans le framework SD-DSS.

@@ -8,6 +8,7 @@ company: "Data Fellas"
 social:
   twitter: "noootsab"
   linkedin: "andypetrella"
+  github: "andypetrella"
 ---
 
 Mathematician turned distributed computing entrepreneur. Creator of Spark Notebook, co-founder of Data Fellas. Member of the O'Reilly Strata program committee.

@@ -7,6 +7,7 @@ role: "Software Engineer"
 company: "Terracotta / Software AG"
 social:
   twitter: "ljacomet"
+  linkedin: "ljacomet"
   github: "ljacomet"
 ---
 

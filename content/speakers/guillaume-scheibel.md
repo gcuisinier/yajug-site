@@ -6,6 +6,9 @@ photo: "/images/speakers/guillaume-scheibel.png"
 role: "Developer"
 company: "Expedia"
 social:
+  twitter: "g_scheibel"
+  linkedin: "guillaumescheibel"
+  github: "gscheibel"
   website: "https://www.gscheibel.net"
 ---
 

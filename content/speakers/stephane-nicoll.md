@@ -9,6 +9,7 @@ social:
   twitter: "snicoll"
   linkedin: "snicoll"
   github: "snicoll"
+  bluesky: "snicoll.be"
   website: "https://about.me/snicoll"
 ---
 

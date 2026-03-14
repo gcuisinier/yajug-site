@@ -8,6 +8,8 @@ company: "Oracle"
 social:
   twitter: "robilad"
   linkedin: "dalibortopic"
+  github: "robilad"
+  bluesky: "robilad.bsky.social"
 ---
 
 Senior figure in the Java open source ecosystem. Helped make OpenJDK successful and anchored Java in Linux distributions. Provides community input to Oracle's Java strategy.

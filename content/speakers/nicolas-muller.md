@@ -8,6 +8,7 @@ company: ""
 social:
   twitter: "zepouet"
   linkedin: "mullernicolas"
+  github: "zepouet"
 ---
 
 Développeur avec 15 ans d'expérience en Java, iOS et Go. Co-leader du Marseille Java User Group et membre fondateur de @labaixbidouille. A présenté à Devoxx France sur Docker avec une expérience depuis la version 0.3.

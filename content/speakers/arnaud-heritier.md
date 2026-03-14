@@ -7,6 +7,9 @@ role: "Software Development & Process Automation Specialist"
 company: "CloudBees"
 social:
   twitter: "aheritier"
+  linkedin: "aheritier"
+  github: "aheritier"
+  bluesky: "aheritier.net"
   website: "http://aheritier.net"
 ---
 

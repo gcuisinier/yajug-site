@@ -5,5 +5,6 @@ draft: false
 photo: "/images/speakers/donald-smith.jpeg"
 role: "Senior Director of Product Management"
 company: "Oracle"
-social: {}
+social:
+  linkedin: "donaldojdk"
 ---

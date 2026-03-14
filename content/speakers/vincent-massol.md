@@ -7,6 +7,8 @@ role: "CTO"
 company: "XWiki SAS"
 social:
   twitter: "vmassol"
+  linkedin: "vmassol"
+  github: "vmassol"
   website: "http://massol.net/"
 ---
 

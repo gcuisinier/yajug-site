@@ -5,5 +5,8 @@ draft: false
 photo: "/images/speakers/cyrille-chopelet.jpg"
 role: "Software Engineer"
 company: ""
-social: {}
+social:
+  twitter: "cyChop"
+  linkedin: "cyrillechopelet"
+  github: "cyChop"
 ---

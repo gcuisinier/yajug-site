@@ -6,6 +6,7 @@ photo: ""
 role: "Software Engineer"
 company: "Terracotta / Software AG"
 social:
+  linkedin: "lorban"
   github: "lorban"
 ---
 

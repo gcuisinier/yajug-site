@@ -7,6 +7,9 @@ role: "Java Champion"
 company: "Red Hat"
 social:
   twitter: "emmanuelbernard"
+  linkedin: "emmanuelbernard"
+  github: "emmanuelbernard"
+  bluesky: "emmanuelbernard.com"
   website: "http://emmanuelbernard.com/blog/"
 ---
 

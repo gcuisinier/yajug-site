@@ -7,6 +7,9 @@ role: "Developer Advocate"
 company: "Hazelcast"
 social:
   twitter: "nicolas_frankel"
+  linkedin: "nicolasfrankel"
+  github: "nfrankel"
+  bluesky: "frankel.ch"
   website: "https://blog.frankel.ch"
 ---
 

@@ -8,6 +8,8 @@ company: ""
 social:
   twitter: "WalterStephanie"
   linkedin: "stephaniewalterpro"
+  github: "stephanie-walter"
+  bluesky: "stephaniewalter.bsky.social"
   website: "https://www.stephaniewalter.fr"
 ---
 

@@ -5,5 +5,8 @@ draft: false
 photo: "/images/speakers/pierre-paci.jpg"
 role: "Developer"
 company: ""
-social: {}
+social:
+  twitter: "pierre_paci"
+  linkedin: "pierrepaci"
+  github: "PPACI"
 ---

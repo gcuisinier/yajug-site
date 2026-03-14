@@ -5,5 +5,8 @@ draft: false
 photo: "/images/speakers/rodislav-moldovan.jpg"
 role: "Developer"
 company: ""
-social: {}
+social:
+  twitter: "rodislavable"
+  linkedin: "rodislav"
+  github: "rodislav"
 ---
