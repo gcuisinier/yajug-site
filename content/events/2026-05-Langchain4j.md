@@ -11,10 +11,9 @@ featured: true
 speakers:
   - name: "Jean-Michel Doudoux"
     slug: "jean-michel-doudoux"
-tags: ["java-21", "loom", "panama", "amber", "virtual-threads"]
+tags: ["langchain4j", "ia", "llm", "java", "rag"]
 categories: ["meetup"]
-description: "Tour complet des innovations de Java 21 LTS : Project Amber, Loom (Virtual Threads), Panama et les améliorations HotSpot JVM."
-eventbrite_url: https://www.eventbrite.fr/e/billets-spring-boot-chapitre-4-1936959601309?aff=ebdsoporgprofile
+description: "Introduction à LangChain4j, le framework Java pour intégrer des Large Language Models dans vos applications."
 
 ---
 

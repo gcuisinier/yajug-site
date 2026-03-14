@@ -52,11 +52,19 @@
       {{ with $past }}
       <div class="events-group events-group--past">
         <h2 class="events-group__title">Past Events</h2>
-        <div class="events-list">
-          {{ range . }}
-          {{ partial "event-card.html" (dict "event" . "featured" false) }}
-          {{ end }}
+        {{ range .GroupByDate "2006" }}
+        <div class="events-year-group">
+          <div class="events-year-group__header">
+            <span class="events-year-group__year">{{ .Key }}</span>
+            <span class="events-year-group__count">{{ len .Pages }} événement{{ if gt (len .Pages) 1 }}s{{ end }}</span>
+          </div>
+          <div class="events-list">
+            {{ range .Pages }}
+            {{ partial "event-card.html" (dict "event" . "featured" false) }}
+            {{ end }}
+          </div>
         </div>
+        {{ end }}
       </div>
       {{ end }}
     </div>
