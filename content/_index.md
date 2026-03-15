@@ -1,11 +1,11 @@
 ---
 title: "YAJUG — Java User Group Luxembourg"
-description: "The Java community in Luxembourg. Connecting JVM developers for meetups, talks, and knowledge sharing since 2008."
+description: "La communauté Java au Luxembourg. Réunir les développeurs JVM pour des meetups, des conférences et le partage de connaissances depuis 2008."
 hero_title: "Java User Group Luxembourg"
-hero_subtitle: "Connecting JVM developers across the Grand Duchy"
+hero_subtitle: "Réunir les développeurs Java (ou tout langage sur la JVM) à travers le Grand-Duché"
 mission: |
-  YAJUG is an independent community of Java and JVM enthusiasts meeting regularly
-  in Luxembourg to share knowledge, experience, and passion for the ecosystem.
-  Open to developers at all levels — whether you're just starting with Java or
-  you've been writing JVM bytecode since Java 1.1.
+  YAJUG est une communauté indépendante de passionnés Java et JVM qui se retrouvent
+  régulièrement au Luxembourg pour partager connaissances, expériences et passion
+  pour l'écosystème. Ouverte aux développeurs de tous niveaux — que vous débutiez
+  avec Java ou que vous écriviez du bytecode JVM depuis Java 1.1.
 ---

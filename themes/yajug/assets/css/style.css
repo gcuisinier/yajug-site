@@ -1479,7 +1479,47 @@ ul, ol { list-style: none; }
 }
 .mission__text { font-size: 1.125rem; color: var(--color-text-muted); line-height: 1.8; }
 
-/* ── 21. Responsive ───────────────────────────────────────── */
+/* ── 21. Newsletter / Mailing list ───────────────────────── */
+.newsletter {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.newsletter__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+}
+.newsletter__desc {
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.newsletter__fields {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.newsletter__input {
+  flex: 1;
+  min-width: 220px;
+  padding: .65rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: border-color var(--transition);
+}
+.newsletter__input:focus {
+  outline: none;
+  border-color: var(--color-secondary);
+}
+.newsletter__btn { white-space: nowrap; }
+
+/* ── 22. Responsive ───────────────────────────────────────── */
 @media (max-width: 1024px) {
   :root { --section-py: 60px; }
 
